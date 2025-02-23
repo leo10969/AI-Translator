@@ -1,0 +1,610 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding-top: 56px;
+    }
+
+    .main-wrapper {
+    height: calc(100vh - 56px);
+    overflow: hidden;
+    }
+
+    /* レイアウト */
+    #sidebar {
+    width: 280px;
+    /* height: 100%; */
+    position: fixed;
+    left: 0;
+    border-right: 1px solid #dee2e6;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+    z-index: 1000;
+    }
+
+    #sidebar.hidden {
+    transform: translateX(-280px);
+    }
+
+  #sidebar.hidden .toggle-button {
+    left: 280px;
+    height: 64px; /* 高さを固定 */
+  }
+
+  .toggle-button {
+    position: fixed;
+    left: 280px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 32px;
+    height: 64px; /* 高さを固定 */
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    background-color: #fff;
+    border-color: #dee2e6;
+    border-left: none;
+    z-index: 1001;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  }
+
+    .toggle-button i {
+    transition: transform 0.3s ease;
+    }
+
+    #sidebar.hidden .toggle-button i {
+    transform: rotate(180deg);
+    }
+
+    .toggle-button:hover {
+    background-color: #e9ecef;
+    }
+
+    .main-content {
+    margin-left: 280px;
+    width: calc(100% - 280px);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: margin-left 0.3s ease, width 0.3s ease;
+    }
+
+    .main-content.expanded {
+    margin-left: 0;
+    width: 100%;
+    }
+
+    .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0;
+    }
+
+    /* 辞書セクション */
+    .dictionary-section {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 100;
+    padding: 5px 0;
+    border-bottom: 1px solid #dee2e6;
+    }
+
+    /* チャットエリアのレイアウト */
+    .chat-area-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 250px);
+    margin-top: 20px;
+    }
+
+    #chat-log {
+    flex: 1;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 15px;
+    padding: 20px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #6c757d #f8f9fa;
+    }
+
+    #chat-log::-webkit-scrollbar {
+    width: 8px;
+    }
+
+    #chat-log::-webkit-scrollbar-track {
+    background: #f8f9fa;
+    border-radius: 4px;
+    }
+
+    #chat-log::-webkit-scrollbar-thumb {
+    background-color: #6c757d;
+    border-radius: 4px;
+    border: 2px solid #f8f9fa;
+    }
+
+    #chat-log::-webkit-scrollbar-thumb:hover {
+    background-color: #495057;
+    }
+
+    .chat-controls {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 5px;
+}
+
+.btn-outline-primary.active {
+    background-color: #0d6efd;
+    color: white;
+}
+
+/* メッセージラッパーの基本スタイル */
+.message-wrapper {
+    margin: 5px 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 95%;
+    position: relative;
+}
+
+/* sticky-messageの基本スタイル - 通常時は通常のメッセージとして表示 */
+.message-wrapper.sticky-message {
+    position: relative;
+    width: 100%;
+    margin: 5px 0;
+    transition: all 0.3s ease;
+}
+
+/* 固定表示が有効な時のみstickyを適用 */
+.sticky-enabled .message-wrapper.sticky-message {
+    position: sticky !important;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(248, 249, 250, 0.95);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: -5px -5px 5px -5px;
+    padding: 5px;
+}
+
+/* 固定表示時のメッセージスタイル */
+.sticky-enabled .sticky-message .message {
+    background-color: rgba(0, 132, 255, 0.95);
+    color: white;
+    margin-left: auto;
+    max-width: 95%;
+}
+
+/* 固定表示時のアクションボタンスタイル */
+.sticky-enabled .sticky-message .message-actions {
+    background-color: rgba(222, 226, 230, 0.9);
+    z-index: 1001;
+    bottom: -8px;
+}
+
+.user-wrapper {
+    align-self: flex-end;
+}
+
+.bot-wrapper {
+    align-self: flex-start;
+}
+
+.system-wrapper {
+    align-self: center;
+    max-width: 90%;
+}
+
+.system-message {
+    background-color: #ffc107;
+    color: #212529;
+    text-align: center;
+    max-width: 90%;
+    align-self: center;
+}
+
+.message-timestamp {
+    font-size: 0.75em;
+    color: rgba(108, 117, 125, 0.8);
+    margin-top: 1px;
+    transition: opacity 0.3s ease;
+}
+
+.user-wrapper .message-timestamp {
+    text-align: right;
+}
+
+.bot-wrapper .message-timestamp {
+    text-align: left;
+}
+
+/* アニメーション */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* モーダルスタイル */
+.modal-content {
+    border-radius: 15px;
+}
+
+.modal-header {
+    background-color: #212529;
+    color: white;
+    border-radius: 15px 15px 0 0;
+}
+
+.modal-footer {
+    border-radius: 0 0 15px 15px;
+}
+
+/* その他のスタイル */
+.input-group {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#chat-input {
+    border-radius: 20px 0 0 20px;
+    padding: 10px 20px;
+    resize: none;
+    overflow-y: auto;
+    min-height: 44px;
+    max-height: 200px;
+}
+
+#send-button {
+    border-radius: 0 20px 20px 0;
+    padding: 10px 25px;
+}
+
+/* 会話の区切り線 */
+.conversation-divider {
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+    color: #6c757d;
+    font-size: 0.9em;
+}
+
+.conversation-divider::before,
+.conversation-divider::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 30%;
+    height: 1px;
+    background-color: #dee2e6;
+}
+
+.conversation-divider::before {
+    left: 0;
+}
+
+.conversation-divider::after {
+    right: 0;
+}
+
+/* サイドバースタイル */
+.sidebar-header {
+    border-bottom: 1px solid #dee2e6;
+    flex-shrink: 0;
+}
+
+#conversation-list {
+    padding: 10px;
+    max-height: calc(100vh - 150px);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #6c757d #f8f9fa;
+}
+
+#conversation-list::-webkit-scrollbar {
+    width: 8px;
+}
+
+#conversation-list::-webkit-scrollbar-track {
+    background: #f8f9fa;
+    border-radius: 4px;
+}
+
+#conversation-list::-webkit-scrollbar-thumb {
+    background-color: #6c757d;
+    border-radius: 4px;
+    border: 2px solid #f8f9fa;
+}
+
+#conversation-list::-webkit-scrollbar-thumb:hover {
+    background-color: #495057;
+}
+
+.conversation-item {
+    padding: 10px 15px;
+    border-bottom: 1px solid #dee2e6;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.conversation-item:hover {
+    background-color: #e9ecef;
+}
+
+.conversation-item.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.conversation-item .timestamp {
+    font-size: 0.8em;
+    color: #6c757d;
+}
+
+.conversation-item.active .timestamp {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.conversation-preview {
+    font-size: 0.9em;
+    color: #6c757d;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.conversation-item.active .conversation-preview {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.message-actions {
+    position: absolute;
+    display: flex;
+    gap: 8px;
+    opacity: 0;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 4px 12px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.user-wrapper .message-actions {
+    left: 0;
+    bottom: -10px;
+}
+
+.bot-wrapper .message-actions {
+    right: 0;
+    bottom: -10px;
+}
+
+.message-wrapper:hover .message-actions {
+    opacity: 1;
+    transform: translateY(-4px);
+}
+
+.action-button {
+    background: none;
+    border: none;
+    color: #6c757d;
+    padding: 4px 12px;
+    font-size: 1.1em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s ease;
+}
+
+.action-button:hover {
+    color: #0084ff;
+    transform: scale(1.1);
+}
+
+.action-button i {
+    font-size: 1.2em;
+}
+
+.copy-button, .edit-button {
+    background: none;
+    border: none;
+    color: #6c757d;
+    font-size: 1.0em;
+    padding: 2px 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.copy-button:hover, .edit-button:hover {
+    background-color: #e9ecef;
+    color: #495057;
+}
+
+.copy-button i, .edit-button i {
+    font-size: 1em;
+}
+
+.copy-success {
+    color: #28a745;
+    background-color: #e8f5e9;
+}
+
+.message.editing {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    padding: 8px 12px;
+    border-radius: 12px;
+    outline: none;
+    min-height: 24px;
+}
+
+.message.editing:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+/* 辞書セクションのスタイル */
+.dictionary-section h5 {
+  cursor: pointer;
+  user-select: none;
+}
+
+.dictionary-section h5:hover {
+  color: #007bff;
+}
+
+.dictionary-entry {
+  background-color: #f8f9fa;
+  transition: all 0.2s ease;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.dictionary-entry:hover {
+  background-color: #e9ecef;
+}
+
+.dictionary-entry .delete-entry {
+  padding: 0.1rem 0.4rem;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.dictionary-entry:hover .delete-entry {
+  opacity: 1;
+}
+
+.dictionary-entry small {
+  font-size: 0.8em;
+  margin-top: 0.3rem;
+}
+
+.dictionary-entries {
+  gap: 0.3rem;
+  padding: 5px;
+}
+
+#dictionary-list {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+#dictionary-list.collapse:not(.show) {
+  display: none;
+}
+
+#dictionary-list.collapsing {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.35s ease;
+}
+
+.message {
+    padding: 8px 12px;
+    border-radius: 12px;
+    margin-bottom: 3px;
+    animation: fadeIn 0.5s ease;
+    white-space: pre-line;
+    line-height: 1.5;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.message:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.user-message {
+    background-color: #0084ff;
+    color: white;
+    text-align: right;
+    margin-left: auto;
+    max-width: 95%;
+    border-radius: 18px 18px 4px 18px;
+}
+
+.bot-message {
+    background-color: #f1f0f0;
+    color: #333;
+    text-align: left;
+    margin-right: auto;
+    max-width: 95%;
+    border-radius: 18px 18px 18px 4px;
+}
+
+.message-wrapper:hover .message-timestamp {
+    opacity: 1;
+}
+
+.typing-indicator {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 8px 12px;
+    background: #f1f0f0;
+    border-radius: 12px;
+    margin: 8px 0;
+    width: fit-content;
+}
+
+.typing-dot {
+    width: 6px;
+    height: 6px;
+    background: #6c757d;
+    border-radius: 50%;
+    animation: typingAnimation 1.4s infinite;
+}
+
+.typing-dot:nth-child(2) { animation-delay: 0.2s; }
+.typing-dot:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes typingAnimation {
+    0%, 60%, 100% { transform: translateY(0); }
+    30% { transform: translateY(-4px); }
+}
+
+.new-message-indicator {
+    position: fixed;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 132, 255, 0.9);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.new-message-indicator.visible {
+    opacity: 1;
+    transform: translate(-50%, -8px);
+}
+
+.new-message-indicator:hover {
+    background: rgba(0, 132, 255, 1);
+    transform: translate(-50%, -10px);
+}

@@ -1,0 +1,283 @@
+{
+  "1740238903067": {
+    "chatStyle": "casual",
+    "translationStyle": "natural",
+    "translationFormat": "simple",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "ten",
+    "dictionary": [
+      {
+        "sourceWord": "AR",
+        "targetWord": "AR",
+        "description": ""
+      },
+      {
+        "sourceWord": "user",
+        "targetWord": "ユーザ",
+        "description": ""
+      },
+      {
+        "sourceWord": "handheld",
+        "targetWord": "ハンドヘルド",
+        "description": ""
+      }
+    ]
+  },
+  "1740239007584": {
+    "chatStyle": "formal",
+    "translationStyle": "literal",
+    "translationFormat": "parallel",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "comma",
+    "dictionary": [
+      {
+        "sourceWord": "AR",
+        "targetWord": "AR",
+        "description": ""
+      },
+      {
+        "sourceWord": "user",
+        "targetWord": "ユーザ",
+        "description": ""
+      },
+      {
+        "sourceWord": "handheld",
+        "targetWord": "ハンドヘルド",
+        "description": ""
+      }
+    ]
+  },
+  "1740239488454": {
+    "chatStyle": "casual",
+    "translationStyle": "natural",
+    "translationFormat": "simple",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "ten",
+    "dictionary": []
+  },
+  "1740239702850": {
+    "chatStyle": "formal",
+    "translationStyle": "literal",
+    "translationFormat": "parallel",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "comma",
+    "dictionary": []
+  },
+  "1740232078838": {
+    "chatStyle": "casual",
+    "translationStyle": "natural",
+    "translationFormat": "simple",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "ten",
+    "dictionary": []
+  },
+  "1740232112488": {
+    "chatStyle": "casual",
+    "translationStyle": "natural",
+    "translationFormat": "simple",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "ten",
+    "dictionary": []
+  },
+  "1740232283517": {
+    "chatStyle": "casual",
+    "translationStyle": "natural",
+    "translationFormat": "simple",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "ten",
+    "dictionary": []
+  },
+  "1740237518281": {
+    "chatStyle": "casual",
+    "translationStyle": "natural",
+    "translationFormat": "simple",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "ten",
+    "dictionary": []
+  },
+  "1740237595098": {
+    "chatStyle": "casual",
+    "translationStyle": "natural",
+    "translationFormat": "simple",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "ten",
+    "dictionary": []
+  },
+  "1740237571260": {
+    "chatStyle": "casual",
+    "translationStyle": "natural",
+    "translationFormat": "simple",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "ten",
+    "dictionary": [
+      {
+        "sourceWord": "AR",
+        "targetWord": "AR",
+        "description": ""
+      },
+      {
+        "sourceWord": "user",
+        "targetWord": "ユーザ",
+        "description": ""
+      },
+      {
+        "sourceWord": "handheld",
+        "targetWord": "ハンドヘルド",
+        "description": ""
+      }
+    ]
+  },
+  "1740234541820": {
+    "chatStyle": "casual",
+    "translationStyle": "natural",
+    "translationFormat": "simple",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "ten",
+    "dictionary": [
+      {
+        "sourceWord": "AR",
+        "targetWord": "AR",
+        "description": ""
+      },
+      {
+        "sourceWord": "user",
+        "targetWord": "ユーザ",
+        "description": ""
+      },
+      {
+        "sourceWord": "handheld",
+        "targetWord": "ハンドヘルド",
+        "description": ""
+      }
+    ]
+  },
+  "1740242850326": {
+    "chatStyle": "formal",
+    "translationStyle": "natural",
+    "translationFormat": "simple",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "comma",
+    "dictionary": [
+      {
+        "sourceWord": "AR",
+        "targetWord": "AR",
+        "description": ""
+      },
+      {
+        "sourceWord": "user",
+        "targetWord": "ユーザ",
+        "description": ""
+      },
+      {
+        "sourceWord": "handheld",
+        "targetWord": "ハンドヘルド",
+        "description": ""
+      }
+    ]
+  },
+  "1740233567951": {
+    "chatStyle": "casual",
+    "translationStyle": "natural",
+    "translationFormat": "simple",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "ten",
+    "dictionary": [
+      {
+        "sourceWord": "AR",
+        "targetWord": "AR",
+        "description": ""
+      },
+      {
+        "sourceWord": "user",
+        "targetWord": "ユーザ",
+        "description": ""
+      },
+      {
+        "sourceWord": "handheld",
+        "targetWord": "ハンドヘルド",
+        "description": ""
+      }
+    ]
+  },
+  "1740234291477": {
+    "chatStyle": "casual",
+    "translationStyle": "natural",
+    "translationFormat": "simple",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "ten",
+    "dictionary": [
+      {
+        "sourceWord": "AR",
+        "targetWord": "AR",
+        "description": ""
+      },
+      {
+        "sourceWord": "user",
+        "targetWord": "ユーザ",
+        "description": ""
+      },
+      {
+        "sourceWord": "handheld",
+        "targetWord": "ハンドヘルド",
+        "description": ""
+      }
+    ]
+  },
+  "1740232715699": {
+    "chatStyle": "casual",
+    "translationStyle": "natural",
+    "translationFormat": "simple",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "ten",
+    "dictionary": [
+      {
+        "sourceWord": "AR",
+        "targetWord": "AR",
+        "description": ""
+      },
+      {
+        "sourceWord": "user",
+        "targetWord": "ユーザ",
+        "description": ""
+      },
+      {
+        "sourceWord": "handheld",
+        "targetWord": "ハンドヘルド",
+        "description": ""
+      }
+    ]
+  },
+  "1740243984812": {
+    "chatStyle": "casual",
+    "translationStyle": "natural",
+    "translationFormat": "simple",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "comma",
+    "dictionary": []
+  },
+  "1740252984726": {
+    "chatStyle": "casual",
+    "translationStyle": "natural",
+    "translationFormat": "simple",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "ten",
+    "dictionary": []
+  }
+}
