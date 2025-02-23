@@ -123,34 +123,6 @@
     "type": "bot"
   },
   {
-    "conversationId": "1740232283517",
-    "original": "Hi, there. I wanna be your friend.",
-    "translation": "",
-    "timestamp": "2025-02-22T13:51:42.711Z",
-    "type": "user"
-  },
-  {
-    "conversationId": "1740232283517",
-    "original": "",
-    "translation": "こんにちは。友達になりたいな。",
-    "timestamp": "2025-02-22T13:51:43.889Z",
-    "type": "bot"
-  },
-  {
-    "conversationId": "1740232283517",
-    "original": "But now I don't know your identity or information. So please introduce yourself to me.",
-    "translation": "",
-    "timestamp": "2025-02-22T13:52:27.696Z",
-    "type": "user"
-  },
-  {
-    "conversationId": "1740232283517",
-    "original": "",
-    "translation": "今はあなたの身元や情報がわからないので、自己紹介をお願いします。",
-    "timestamp": "2025-02-22T13:52:28.857Z",
-    "type": "bot"
-  },
-  {
     "conversationId": "1740234541820",
     "original": "Handheld Augmented Reality (HAR) applications enable interac- tion with the user’s physical environment through smartphones or tablets that superimpose virtual content on top of the real world. A variety of interaction techniques can be used to manipulate vir- tual objects in HAR applications. For example, tangible input with keypad or phone tilting can be used for translation and rotation control [Henrysson et al. 2007] [Chen et al. 2008], or direct touch screen input to select on-screen content [Langlotz et al. 2012] [Kim et al. 2011]. However, existing touch-based input methods have substantial limitations, such as finger occlusion of on-screen con- tent, being limited to the physical screen size, and the difficulty of mapping two dimensional input into 3D spatial interaction [Mossel et al. 2013].",
     "translation": "",
@@ -179,20 +151,6 @@
     "type": "bot"
   },
   {
-    "conversationId": "1740233567951",
-    "original": "これらの変更により、以下の機能が追加されました： ボットの応答メッセージの下にコピーボタンが表示されます コピーボタンの特徴： マウスホバー時にのみ表示（透明度で制御） クリック時にクリップボードにテキストをコピー コピー成功時に視覚的フィードバック（アイコンと色の変更） 2秒後に元の表示に戻る",
-    "translation": "",
-    "timestamp": "2025-02-22T14:13:07.358Z",
-    "type": "user"
-  },
-  {
-    "conversationId": "1740233567951",
-    "original": "",
-    "translation": "These changes introduce the following features:\n\n*   A copy button now appears below bot response messages.\n*   Copy button characteristics:\n    *   Only visible on mouse hover (controlled by transparency).\n    *   Copies the text to the clipboard on click.\n    *   Provides visual feedback on successful copy (icon and color change).\n    *   Reverts to the original appearance after 2 seconds.",
-    "timestamp": "2025-02-22T14:13:09.172Z",
-    "type": "bot"
-  },
-  {
     "conversationId": "1740237595098",
     "original": "Handheld Augmented Reality (HAR) applications enable interac- tion with the user’s physical environment through smartphones or tablets that superimpose virtual content on top of the real world. A variety of interaction techniques can be used to manipulate vir- tual objects in HAR applications. For example, tangible input with keypad or phone tilting can be used for translation and rotation control [Henrysson et al. 2007] [Chen et al. 2008], or direct touch screen input to select on-screen content [Langlotz et al. 2012] [Kim et al. 2011]. However, existing touch-based input methods have substantial limitations, such as finger occlusion of on-screen con- tent, being limited to the physical screen size, and the difficulty of mapping two dimensional input into 3D spatial interaction [Mossel et al. 2013].",
     "translation": "",
@@ -204,48 +162,6 @@
     "original": "",
     "translation": "[原文]\nHandheld Augmented Reality (HAR) applications enable interac- tion with the user’s physical environment through smartphones or tablets that superimpose virtual content on top of the real world。\n[翻訳]\nハンドヘルド拡張現実（HAR）アプリケーションは、スマートフォンやタブレットを通して、ユーザーの物理的な環境とのインタラクションを可能にします。これは、現実世界の上に仮想コンテンツを重ね合わせることで実現されます。\n\n[原文]\nA variety of interaction techniques can be used to manipulate vir- tual objects in HAR applications。\n[翻訳]\nHARアプリケーションでは、仮想オブジェクトを操作するために、様々なインタラクション技術が利用できます。\n\n[原文]\nFor example, tangible input with keypad or phone tilting can be used for translation and rotation control [Henrysson et al. 2007] [Chen et al. 2008], or direct touch screen input to select on-screen content [Langlotz et al. 2012] [Kim et al. 2011]。\n[翻訳]\n例えば、キーパッドやスマートフォンの傾きを使った触覚的な入力は、移動や回転の制御に利用できます[Henrysson et al. 2007] [Chen et al. 2008]。あるいは、直接タッチスクリーン入力で画面上のコンテンツを選択することも可能です[Langlotz et al. 2012] [Kim et al. 2011]。\n\n[原文]\nHowever, existing touch-based input methods have substantial limitations, such as finger occlusion of on-screen con- tent, being limited to the physical screen size, and the difficulty of mapping two dimensional input into 3D spatial interaction [Mossel et al. 2013]。\n[翻訳]\nしかしながら、既存のタッチベースの入力方式には、画面上のコンテンツが指で隠れてしまうこと、物理的な画面サイズに制限されること、そして2次元の入力を3次元の空間的インタラクションにマッピングすることの難しさなど、大きな制限があります[Mossel et al. 2013]。",
     "timestamp": "2025-02-22T15:20:02.125Z",
-    "type": "bot"
-  },
-  {
-    "conversationId": "1740239007584",
-    "original": "2 Related Work Researchers developed different methods to investigate gesture- based interfaces for HAR over recent years, each with its own ad- vantages and limitations. Early methods required the user to have a trackable marker attached on the fingers so the mobile camera can track their position. For instance, Henrysson et al. [Henrysson et al. 2007] attached a fidu- cial marker on the fingertip and used the mobile phone’s front cam- era to capture its spatial position and pose for midair input. H¨ urst and Wezel [H¨ urst and Wezel 2013] investigated the potential for finger-based interaction by applying two color markers on two fin- gers respectively, and testing it in a mobile AR board game. Com- pared against the phone’s touch screen and orientation sensors in- put, finger-based interaction produced the worst performance, but a high score of fun-engagement level that indicated the potential for gaming applications.",
-    "translation": "",
-    "timestamp": "2025-02-22T15:43:46.778Z",
-    "type": "user"
-  },
-  {
-    "conversationId": "1740239007584",
-    "original": "",
-    "translation": "[原文]\n2 Related Work Researchers developed different methods to investigate gesture- based interfaces for HAR over recent years, each with its own ad- vantages and limitations.\n[翻訳]\n2 関連研究 研究者たちは，近年，ジェスチャベースのHARインタフェースを調査するために，それぞれに利点と制限がある異なる手法を開発した．\n\n[原文]\nEarly methods required the user to have a trackable marker attached on the fingers so the mobile camera can track their position.\n[翻訳]\n初期の手法では，モバイルカメラがそれらの位置を追跡できるように，ユーザが指に追跡可能なマーカーを取り付ける必要があった．\n\n[原文]\nFor instance, Henrysson et al. [Henrysson et al. 2007] attached a fidu- cial marker on the fingertip and used the mobile phone’s front cam- era to capture its spatial position and pose for midair input.\n[翻訳]\nたとえば，Henryssonらは[Henrysson et al．2007]は，指先にfidu-cialマーカーを取り付け，空中の入力を得るために，モバイルフォンのフロントカメラを使用してその空間的な位置と姿勢をキャプチャした．\n\n[原文]\nH¨ urst and Wezel [H¨ urst and Wezel 2013] investigated the potential for finger-based interaction by applying two color markers on two fin- gers respectively, and testing it in a mobile AR board game.\n[翻訳]\nH¨ urstとWezel [H¨ urst and Wezel 2013]は，それぞれ2本の指に2つのカラーマーカーを適用し，モバイルARボードゲームでそれをテストすることにより，指ベースのインタラクションの可能性を調査した．\n\n[原文]\nCompared against the phone’s touch screen and orientation sensors in- put, finger-based interaction produced the worst performance, but a high score of fun-engagement level that indicated the potential for gaming applications.\n[翻訳]\nフォンのタッチスクリーンおよび方位センサの入力と比較して，指ベースのインタラクションは最悪のパフォーマンスを生み出したものの，ゲーミングアプリケーションの可能性を示す高い楽しさ-エンゲージメントレベルのスコアを生み出した．",
-    "timestamp": "2025-02-22T15:43:51.594Z",
-    "type": "bot"
-  },
-  {
-    "conversationId": "1740239007584",
-    "original": "2 Related Work\nResearchers developed different methods to investigate gesture-\nbased interfaces for HAR over recent years, each with its own ad-\nvantages and limitations.\nEarly methods required the user to have a trackable marker attached\non the fingers so the mobile camera can track their position. For\ninstance, Henrysson et al. [Henrysson et al. 2007] attached a fidu-\ncial marker on the fingertip and used the mobile phone’s front cam-\nera to capture its spatial position and pose for midair input. H¨ urst\nand Wezel [H¨ urst and Wezel 2013] investigated the potential for\nfinger-based interaction by applying two color markers on two fin-\ngers respectively, and testing it in a mobile AR board game. Com-\npared against the phone’s touch screen and orientation sensors in-\nput, finger-based interaction produced the worst performance, but a\nhigh score of fun-engagement level that indicated the potential for\ngaming applications.",
-    "translation": "",
-    "timestamp": "2025-02-22T17:08:39.237Z",
-    "type": "user"
-  },
-  {
-    "conversationId": "1740239007584",
-    "original": "",
-    "translation": "[原文]\n2 Related Work\n[翻訳]\n２ 関連研究．\n\n[原文]\nResearchers developed different methods to investigate gesture-\nbased interfaces for HAR over recent years, each with its own ad-\nvantages and limitations.\n[翻訳]\n研究者たちは，近年，HARのためのジェスチャーベースインターフェースを調査するために様々な手法を開発したが，それぞれに独自の利点と制限があった．\n\n[原文]\nEarly methods required the user to have a trackable marker attached\non the fingers so the mobile camera can track their position.\n[翻訳]\n初期の手法では，モバイルカメラが指の位置を追跡できるように，ユーザが追跡可能なマーカーを指に取り付ける必要があった．\n\n[原文]\nFor\ninstance, Henrysson et al. [Henrysson et al. 2007] attached a fidu-\ncial marker on the fingertip and used the mobile phone’s front cam-\nera to capture its spatial position and pose for midair input.\n[翻訳]\n例えば，Henryssonらは[Henrysson et al. 2007]指先にfiducialマーカーを取り付け，モバイルフォンのフロントカメラを使用して，空中入力のための空間位置と姿勢をキャプチャした．\n\n[原文]\nH¨ urst\nand Wezel [H¨ urst and Wezel 2013] investigated the potential for\nfinger-based interaction by applying two color markers on two fin-\ngers respectively, and testing it in a mobile AR board game.\n[翻訳]\nH¨urstとWezel [H¨urst and Wezel 2013]は，それぞれ2本の指に2つのカラーマーカーを適用し，モバイルARボードゲームでテストすることにより，指ベースのインタラクションの可能性を調査した．\n\n[原文]\nCom-\npared against the phone’s touch screen and orientation sensors in-\nput, finger-based interaction produced the worst performance, but a\nhigh score of fun-engagement level that indicated the potential for\ngaming applications.\n[翻訳]\nスマートフォンのタッチスクリーンおよび方位センサーの入力と比較して，指ベースのインタラクションは最悪のパフォーマンスを示したが，ゲームアプリケーションの可能性を示す高い楽しいエンゲージメントレベルを示した．",
-    "timestamp": "2025-02-22T17:08:44.644Z",
-    "type": "bot"
-  },
-  {
-    "conversationId": "1740238903067",
-    "original": "Handheld Augmented Reality (HAR) applications enable interac- tion with the user’s physical environment through smartphones or tablets that superimpose virtual content on top of the real world. A variety of interaction techniques can be used to manipulate vir- tual objects in HAR applications. For example, tangible input with keypad or phone tilting can be used for translation and rotation control [Henrysson et al. 2007] [Chen et al. 2008], or direct touch screen input to select on-screen content [Langlotz et al. 2012] [Kim et al. 2011]. However, existing touch-based input methods have substantial limitations, such as finger occlusion of on-screen con- tent, being limited to the physical screen size, and the difficulty of mapping two dimensional input into 3D spatial interaction [Mossel et al. 2013].",
-    "translation": "",
-    "timestamp": "2025-02-22T15:42:32.297Z",
-    "type": "user"
-  },
-  {
-    "conversationId": "1740238903067",
-    "original": "",
-    "translation": "ハンドヘルド拡張現実（HAR）アプリケーションは、現実世界に仮想コンテンツを重ね合わせるスマートフォンやタブレットを通して、ユーザの物理環境とのインタラクションを可能にする。\n\nさまざまなインタラクション技術が、HARアプリケーションにおける仮想オブジェクトの操作に利用できる。\n\n例えば、キーパッドや電話の傾きによる具体的な入力は、並進および回転制御に利用でき[Henrysson et al. 2007] [Chen et al. 2008]、または直接的なタッチスクリーン入力は、画面上のコンテンツを選択するために利用できる[Langlotz et al. 2012] [Kim et al. 2011]。\n\nしかしながら、既存のタッチベースの入力方式には、画面上のコンテンツの指による遮蔽、物理的な画面サイズに限定されること、および二次元入力を3D空間インタラクションにマッピングすることの難しさなど、大きな制限がある[Mossel et al. 2013]。",
-    "timestamp": "2025-02-22T15:42:35.439Z",
     "type": "bot"
   },
   {
@@ -291,45 +207,115 @@
     "type": "bot"
   },
   {
-    "conversationId": "1740243984812",
-    "original": "2 Related Work\nResearchers developed different methods to investigate gesture-\nbased interfaces for HAR over recent years, each with its own ad-\nvantages and limitations.\nEarly methods required the user to have a trackable marker attached\non the fingers so the mobile camera can track their position. For\ninstance, Henrysson et al. [Henrysson et al. 2007] attached a fidu-\ncial marker on the fingertip and used the mobile phone’s front cam-\nera to capture its spatial position and pose for midair input. H¨ urst\nand Wezel [H¨ urst and Wezel 2013] investigated the potential for\nfinger-based interaction by applying two color markers on two fin-\ngers respectively, and testing it in a mobile AR board game. Com-\npared against the phone’s touch screen and orientation sensors in-\nput, finger-based interaction produced the worst performance, but a\nhigh score of fun-engagement level that indicated the potential for\ngaming applications.",
+    "conversationId": "1740238903067",
+    "original": "Handheld Augmented Reality (HAR) applications enable interac- tion with the user’s physical environment through smartphones or tablets that superimpose virtual content on top of the real world. A variety of interaction techniques can be used to manipulate vir- tual objects in HAR applications. For example, tangible input with keypad or phone tilting can be used for translation and rotation control [Henrysson et al. 2007] [Chen et al. 2008], or direct touch screen input to select on-screen content [Langlotz et al. 2012] [Kim et al. 2011]. However, existing touch-based input methods have substantial limitations, such as finger occlusion of on-screen con- tent, being limited to the physical screen size, and the difficulty of mapping two dimensional input into 3D spatial interaction [Mossel et al. 2013].",
     "translation": "",
-    "timestamp": "2025-02-22T17:06:29.710Z",
+    "timestamp": "2025-02-22T15:42:32.297Z",
     "type": "user"
   },
   {
-    "conversationId": "1740243984812",
+    "conversationId": "1740238903067",
     "original": "",
-    "translation": "２．関連研究．\n\n近年，研究者らはHARのためのジェスチャベースインターフェースを調査するために様々な手法を開発してきたが，それぞれに長所と短所がある．\n\n初期の手法では，モバイルカメラが指の位置を追跡できるように，ユーザが追跡可能なマーカーを指に取り付ける必要があった．例えば，Henryssonらは[Henrysson et al. 2007]，指先にfiducialマーカーを取り付け，携帯電話のフロントカメラを使って，空中入力をするための空間的な位置と姿勢を捉えた．H¨ urstとWezel [H¨ urst and Wezel 2013]は，それぞれ2本の指に2つのカラーマーカーを適用し，モバイルARボードゲームでテストすることにより，指ベースのインタラクションの可能性を調査した．携帯電話のタッチスクリーンおよびオリエンテーションセンサーの入力と比較すると，指ベースのインタラクションは最悪のパフォーマンスを示したが，ゲームアプリケーションの可能性を示す高い楽しさ-エンゲージメントレベルのスコアを示した．",
-    "timestamp": "2025-02-22T17:06:33.627Z",
+    "translation": "ハンドヘルド拡張現実（HAR）アプリケーションは、現実世界に仮想コンテンツを重ね合わせるスマートフォンやタブレットを通して、ユーザの物理環境とのインタラクションを可能にする。\n\nさまざまなインタラクション技術が、HARアプリケーションにおける仮想オブジェクトの操作に利用できる。\n\n例えば、キーパッドや電話の傾きによる具体的な入力は、並進および回転制御に利用でき[Henrysson et al. 2007] [Chen et al. 2008]、または直接的なタッチスクリーン入力は、画面上のコンテンツを選択するために利用できる[Langlotz et al. 2012] [Kim et al. 2011]。\n\nしかしながら、既存のタッチベースの入力方式には、画面上のコンテンツの指による遮蔽、物理的な画面サイズに限定されること、および二次元入力を3D空間インタラクションにマッピングすることの難しさなど、大きな制限がある[Mossel et al. 2013]。",
+    "timestamp": "2025-02-22T15:42:35.439Z",
     "type": "bot"
   },
   {
-    "conversationId": "1740243984812",
-    "original": "2 Related Work\nResearchers developed different methods to investigate gesture-\nbased interfaces for HAR over recent years, each with its own ad-\nvantages and limitations.\nEarly methods required the user to have a trackable marker attached\non the fingers so the mobile camera can track their position. For\ninstance, Henrysson et al. [Henrysson et al. 2007] attached a fidu-\ncial marker on the fingertip and used the mobile phone’s front cam-\nera to capture its spatial position and pose for midair input. H¨ urst\nand Wezel [H¨ urst and Wezel 2013] investigated the potential for\nfinger-based interaction by applying two color markers on two fin-\ngers respectively, and testing it in a mobile AR board game. Com-\npared against the phone’s touch screen and orientation sensors in-\nput, finger-based interaction produced the worst performance, but a\nhigh score of fun-engagement level that indicated the potential for\ngaming applications.",
+    "conversationId": "1740295549965",
+    "original": "Hi, there. I wanna be your friend.",
     "translation": "",
-    "timestamp": "2025-02-22T17:06:43.199Z",
+    "timestamp": "2025-02-22T13:51:42.711Z",
     "type": "user"
   },
   {
-    "conversationId": "1740243984812",
+    "conversationId": "1740295549965",
     "original": "",
-    "translation": "2 関連研究．\n近年，研究者らはHARのためのジェスチャベースインターフェースを調査するために，それぞれ独自の利点と限界を持つ様々な手法を開発してきた．\n\n初期の手法では，モバイルカメラが指の位置を追跡できるように，ユーザが追跡可能なマーカーを指に取り付ける必要があった．例えば，Henryssonらは[Henrysson et al. 2007]，指先にfiducialマーカーを取り付け，携帯電話のフロントカメラを使用して，空中入力のための空間位置と姿勢を捉えた．H¨urstとWezel [H¨urst and Wezel 2013]は，2本の指にそれぞれ2つのカラーマーカーを適用し，モバイルARボードゲームでテストすることにより，指ベースのインタラクションの可能性を調査した．携帯電話のタッチスクリーンやオリエンテーションセンサーの入力と比較して，指ベースのインタラクションは最悪のパフォーマンスを示したが，ゲームアプリケーションの可能性を示す高いスコアの楽しさ-エンゲージメントレベルを示した．",
-    "timestamp": "2025-02-22T17:06:46.916Z",
+    "translation": "こんにちは。友達になりたいな。",
+    "timestamp": "2025-02-22T13:51:43.889Z",
     "type": "bot"
   },
   {
-    "conversationId": "1740243984812",
-    "original": "2 Related Work\nResearchers developed different methods to investigate gesture-\nbased interfaces for HAR over recent years, each with its own ad-\nvantages and limitations.\nEarly methods required the user to have a trackable marker attached\non the fingers so the mobile camera can track their position. For\ninstance, Henrysson et al. [Henrysson et al. 2007] attached a fidu-\ncial marker on the fingertip and used the mobile phone’s front cam-\nera to capture its spatial position and pose for midair input. H¨ urst\nand Wezel [H¨ urst and Wezel 2013] investigated the potential for\nfinger-based interaction by applying two color markers on two fin-\ngers respectively, and testing it in a mobile AR board game. Com-\npared against the phone’s touch screen and orientation sensors in-\nput, finger-based interaction produced the worst performance, but a\nhigh score of fun-engagement level that indicated the potential for\ngaming applications.",
+    "conversationId": "1740295549965",
+    "original": "But now I don't know your identity or information. So please introduce yourself to me.",
     "translation": "",
-    "timestamp": "2025-02-22T17:06:51.801Z",
+    "timestamp": "2025-02-22T13:52:27.696Z",
     "type": "user"
   },
   {
-    "conversationId": "1740243984812",
+    "conversationId": "1740295549965",
     "original": "",
-    "translation": "2 関連研究．\n近年，研究者らはHARのためのジェスチャーベースインターフェースを調査するために，それぞれに利点と限界を持つ様々な手法を開発した．\n\n初期の手法では，モバイルカメラが指の位置を追跡できるように，ユーザーが追跡可能なマーカーを指に取り付ける必要があった．例えば，Henryssonら[Henrysson et al. 2007]は，指先にfiducialマーカーを取り付け，携帯電話のフロントカメラを使って，空中入力のための空間位置と姿勢を捉えた．H¨ urstとWezel [H¨ urst and Wezel 2013]は，2本の指にそれぞれ2つのカラーマーカーを適用し，モバイルARボードゲームでテストすることで，指ベースのインタラクションの可能性を調査した．携帯電話のタッチスクリーンや方位センサーの入力と比較して，指ベースのインタラクションは最悪のパフォーマンスを示したが，高いスコアの楽しさエンゲージメントレベルは，ゲームアプリケーションの可能性を示唆していた．",
-    "timestamp": "2025-02-22T17:06:55.245Z",
+    "translation": "今はあなたの身元や情報がわからないので、自己紹介をお願いします。",
+    "timestamp": "2025-02-22T13:52:28.857Z",
+    "type": "bot"
+  },
+  {
+    "conversationId": "1740232283517",
+    "original": "Hi, there. I wanna be your friend.",
+    "translation": "",
+    "timestamp": "2025-02-22T13:51:42.711Z",
+    "type": "user"
+  },
+  {
+    "conversationId": "1740232283517",
+    "original": "",
+    "translation": "こんにちは。友達になりたいな。",
+    "timestamp": "2025-02-22T13:51:43.889Z",
+    "type": "bot"
+  },
+  {
+    "conversationId": "1740232283517",
+    "original": "But now I don't know your identity or information. So please introduce yourself to me.",
+    "translation": "",
+    "timestamp": "2025-02-22T13:52:27.696Z",
+    "type": "user"
+  },
+  {
+    "conversationId": "1740232283517",
+    "original": "",
+    "translation": "今はあなたの身元や情報がわからないので、自己紹介をお願いします。",
+    "timestamp": "2025-02-22T13:52:28.857Z",
+    "type": "bot"
+  },
+  {
+    "conversationId": "1740233567951",
+    "original": "これらの変更により、以下の機能が追加されました： ボットの応答メッセージの下にコピーボタンが表示されます コピーボタンの特徴： マウスホバー時にのみ表示（透明度で制御） クリック時にクリップボードにテキストをコピー コピー成功時に視覚的フィードバック（アイコンと色の変更） 2秒後に元の表示に戻る",
+    "translation": "",
+    "timestamp": "2025-02-22T14:13:07.358Z",
+    "type": "user"
+  },
+  {
+    "conversationId": "1740233567951",
+    "original": "",
+    "translation": "These changes introduce the following features:\n\n*   A copy button now appears below bot response messages.\n*   Copy button characteristics:\n    *   Only visible on mouse hover (controlled by transparency).\n    *   Copies the text to the clipboard on click.\n    *   Provides visual feedback on successful copy (icon and color change).\n    *   Reverts to the original appearance after 2 seconds.",
+    "timestamp": "2025-02-22T14:13:09.172Z",
+    "type": "bot"
+  },
+  {
+    "conversationId": "1740242850326",
+    "original": "2 Related Work\nResearchers developed different methods to investigate gesture-\nbased interfaces for HAR over recent years, each with its own ad-\nvantages and limitations.\nEarly methods required the user to have a trackable marker attached\non the fingers so the mobile camera can track their position. For\ninstance, Henrysson et al. [Henrysson et al. 2007] attached a fidu-\ncial marker on the fingertip and used the mobile phone’s front cam-\nera to capture its spatial position and pose for midair input. H¨ urst\nand Wezel [H¨ urst and Wezel 2013] investigated the potential for\nfinger-based interaction by applying two color markers on two fin-\ngers respectively, and testing it in a mobile AR board game. Com-\npared against the phone’s touch screen and orientation sensors in-\nput, finger-based interaction produced the worst performance, but a\nhigh score of fun-engagement level that indicated the potential for\ngaming applications.",
+    "translation": "",
+    "timestamp": "2025-02-22T16:47:34.781Z",
+    "type": "user"
+  },
+  {
+    "conversationId": "1740242850326",
+    "original": "",
+    "translation": "２．関連研究\n\n近年、研究者らはHARのためのジェスチャベースのインタフェースを調査するために、それぞれ独自の利点と制限を持つ様々な手法を開発した．\n\n初期の手法では、モバイルカメラが指の位置を追跡できるように、ユーザが追跡可能なマーカーを指に取り付ける必要があった．例えば、Henryssonらは、指先にfiducialマーカーを取り付け、携帯電話の前面カメラを使用して、空中で入力するための空間的な位置と姿勢をキャプチャした[Henrysson et al. 2007]．H¨urstとWezelは、それぞれ2本の指に2つのカラーマーカーを適用し、モバイルARボードゲームでそれをテストすることにより、指ベースのインタラクションの可能性を調査した[H¨urst and Wezel 2013]．携帯電話のタッチスクリーンおよびオリエンテーションセンサ入力と比較して、指ベースのインタラクションは最悪のパフォーマンスを示したが、ゲームアプリケーションの可能性を示す高い楽しさ・エンゲージメントレベルのスコアを生み出した．",
+    "timestamp": "2025-02-22T16:47:38.018Z",
+    "type": "bot"
+  },
+  {
+    "conversationId": "1740242850326",
+    "original": "2 Related Work\nResearchers developed different methods to investigate gesture-\nbased interfaces for HAR over recent years, each with its own ad-\nvantages and limitations.\nEarly methods required the user to have a trackable marker attached\non the fingers so the mobile camera can track their position. For\ninstance, Henrysson et al. [Henrysson et al. 2007] attached a fidu-\ncial marker on the fingertip and used the mobile phone’s front cam-\nera to capture its spatial position and pose for midair input. H¨ urst\nand Wezel [H¨ urst and Wezel 2013] investigated the potential for\nfinger-based interaction by applying two color markers on two fin-\ngers respectively, and testing it in a mobile AR board game. Com-\npared against the phone’s touch screen and orientation sensors in-\nput, finger-based interaction produced the worst performance, but a\nhigh score of fun-engagement level that indicated the potential for\ngaming applications.",
+    "translation": "",
+    "timestamp": "2025-02-22T16:47:48.497Z",
+    "type": "user"
+  },
+  {
+    "conversationId": "1740242850326",
+    "original": "",
+    "translation": "2．関連研究\n\n近年，研究者たちはHARのためのジェスチャベースのインタフェースを調査するために，それぞれ独自の利点と限界を持つ様々な手法を開発した．\n\n初期の手法では，モバイルカメラが指の位置を追跡できるように，ユーザが追跡可能なマーカーを指に取り付ける必要があった．例えば，Henrysson et al. [Henrysson et al. 2007]は，指先にfiducialマーカーを取り付け，携帯電話のフロントカメラを使用して，空中の入力に対する空間的な位置と姿勢を捉えた．H¨urst and Wezel [H¨urst and Wezel 2013]は，2本の指にそれぞれ2つのカラーマーカーを適用し，モバイルARボードゲームでテストすることにより，指ベースのインタラクションの可能性を調査した．携帯電話のタッチスクリーンおよびオリエンテーションセンサ入力と比較して，指ベースのインタラクションは最悪のパフォーマンスであったが，ゲームアプリケーションの可能性を示す高いエンゲージメントレベルを示した．",
+    "timestamp": "2025-02-22T16:47:51.612Z",
     "type": "bot"
   },
   {
@@ -389,31 +375,87 @@
     "type": "bot"
   },
   {
-    "conversationId": "1740242850326",
-    "original": "2 Related Work\nResearchers developed different methods to investigate gesture-\nbased interfaces for HAR over recent years, each with its own ad-\nvantages and limitations.\nEarly methods required the user to have a trackable marker attached\non the fingers so the mobile camera can track their position. For\ninstance, Henrysson et al. [Henrysson et al. 2007] attached a fidu-\ncial marker on the fingertip and used the mobile phone’s front cam-\nera to capture its spatial position and pose for midair input. H¨ urst\nand Wezel [H¨ urst and Wezel 2013] investigated the potential for\nfinger-based interaction by applying two color markers on two fin-\ngers respectively, and testing it in a mobile AR board game. Com-\npared against the phone’s touch screen and orientation sensors in-\nput, finger-based interaction produced the worst performance, but a\nhigh score of fun-engagement level that indicated the potential for\ngaming applications.",
+    "conversationId": "1740239007584",
+    "original": "2 Related Work Researchers developed different methods to investigate gesture- based interfaces for HAR over recent years, each with its own ad- vantages and limitations. Early methods required the user to have a trackable marker attached on the fingers so the mobile camera can track their position. For instance, Henrysson et al. [Henrysson et al. 2007] attached a fidu- cial marker on the fingertip and used the mobile phone’s front cam- era to capture its spatial position and pose for midair input. H¨ urst and Wezel [H¨ urst and Wezel 2013] investigated the potential for finger-based interaction by applying two color markers on two fin- gers respectively, and testing it in a mobile AR board game. Com- pared against the phone’s touch screen and orientation sensors in- put, finger-based interaction produced the worst performance, but a high score of fun-engagement level that indicated the potential for gaming applications.",
     "translation": "",
-    "timestamp": "2025-02-22T16:47:34.781Z",
+    "timestamp": "2025-02-22T15:43:46.778Z",
     "type": "user"
   },
   {
-    "conversationId": "1740242850326",
+    "conversationId": "1740239007584",
     "original": "",
-    "translation": "２．関連研究\n\n近年、研究者らはHARのためのジェスチャベースのインタフェースを調査するために、それぞれ独自の利点と制限を持つ様々な手法を開発した．\n\n初期の手法では、モバイルカメラが指の位置を追跡できるように、ユーザが追跡可能なマーカーを指に取り付ける必要があった．例えば、Henryssonらは、指先にfiducialマーカーを取り付け、携帯電話の前面カメラを使用して、空中で入力するための空間的な位置と姿勢をキャプチャした[Henrysson et al. 2007]．H¨urstとWezelは、それぞれ2本の指に2つのカラーマーカーを適用し、モバイルARボードゲームでそれをテストすることにより、指ベースのインタラクションの可能性を調査した[H¨urst and Wezel 2013]．携帯電話のタッチスクリーンおよびオリエンテーションセンサ入力と比較して、指ベースのインタラクションは最悪のパフォーマンスを示したが、ゲームアプリケーションの可能性を示す高い楽しさ・エンゲージメントレベルのスコアを生み出した．",
-    "timestamp": "2025-02-22T16:47:38.018Z",
+    "translation": "[原文]\n2 Related Work Researchers developed different methods to investigate gesture- based interfaces for HAR over recent years, each with its own ad- vantages and limitations.\n[翻訳]\n2 関連研究 研究者たちは，近年，ジェスチャベースのHARインタフェースを調査するために，それぞれに利点と制限がある異なる手法を開発した．\n\n[原文]\nEarly methods required the user to have a trackable marker attached on the fingers so the mobile camera can track their position.\n[翻訳]\n初期の手法では，モバイルカメラがそれらの位置を追跡できるように，ユーザが指に追跡可能なマーカーを取り付ける必要があった．\n\n[原文]\nFor instance, Henrysson et al. [Henrysson et al. 2007] attached a fidu- cial marker on the fingertip and used the mobile phone’s front cam- era to capture its spatial position and pose for midair input.\n[翻訳]\nたとえば，Henryssonらは[Henrysson et al．2007]は，指先にfidu-cialマーカーを取り付け，空中の入力を得るために，モバイルフォンのフロントカメラを使用してその空間的な位置と姿勢をキャプチャした．\n\n[原文]\nH¨ urst and Wezel [H¨ urst and Wezel 2013] investigated the potential for finger-based interaction by applying two color markers on two fin- gers respectively, and testing it in a mobile AR board game.\n[翻訳]\nH¨ urstとWezel [H¨ urst and Wezel 2013]は，それぞれ2本の指に2つのカラーマーカーを適用し，モバイルARボードゲームでそれをテストすることにより，指ベースのインタラクションの可能性を調査した．\n\n[原文]\nCompared against the phone’s touch screen and orientation sensors in- put, finger-based interaction produced the worst performance, but a high score of fun-engagement level that indicated the potential for gaming applications.\n[翻訳]\nフォンのタッチスクリーンおよび方位センサの入力と比較して，指ベースのインタラクションは最悪のパフォーマンスを生み出したものの，ゲーミングアプリケーションの可能性を示す高い楽しさ-エンゲージメントレベルのスコアを生み出した．",
+    "timestamp": "2025-02-22T15:43:51.594Z",
     "type": "bot"
   },
   {
-    "conversationId": "1740242850326",
+    "conversationId": "1740239007584",
     "original": "2 Related Work\nResearchers developed different methods to investigate gesture-\nbased interfaces for HAR over recent years, each with its own ad-\nvantages and limitations.\nEarly methods required the user to have a trackable marker attached\non the fingers so the mobile camera can track their position. For\ninstance, Henrysson et al. [Henrysson et al. 2007] attached a fidu-\ncial marker on the fingertip and used the mobile phone’s front cam-\nera to capture its spatial position and pose for midair input. H¨ urst\nand Wezel [H¨ urst and Wezel 2013] investigated the potential for\nfinger-based interaction by applying two color markers on two fin-\ngers respectively, and testing it in a mobile AR board game. Com-\npared against the phone’s touch screen and orientation sensors in-\nput, finger-based interaction produced the worst performance, but a\nhigh score of fun-engagement level that indicated the potential for\ngaming applications.",
     "translation": "",
-    "timestamp": "2025-02-22T16:47:48.497Z",
+    "timestamp": "2025-02-22T17:08:39.237Z",
     "type": "user"
   },
   {
-    "conversationId": "1740242850326",
+    "conversationId": "1740239007584",
     "original": "",
-    "translation": "2．関連研究\n\n近年，研究者たちはHARのためのジェスチャベースのインタフェースを調査するために，それぞれ独自の利点と限界を持つ様々な手法を開発した．\n\n初期の手法では，モバイルカメラが指の位置を追跡できるように，ユーザが追跡可能なマーカーを指に取り付ける必要があった．例えば，Henrysson et al. [Henrysson et al. 2007]は，指先にfiducialマーカーを取り付け，携帯電話のフロントカメラを使用して，空中の入力に対する空間的な位置と姿勢を捉えた．H¨urst and Wezel [H¨urst and Wezel 2013]は，2本の指にそれぞれ2つのカラーマーカーを適用し，モバイルARボードゲームでテストすることにより，指ベースのインタラクションの可能性を調査した．携帯電話のタッチスクリーンおよびオリエンテーションセンサ入力と比較して，指ベースのインタラクションは最悪のパフォーマンスであったが，ゲームアプリケーションの可能性を示す高いエンゲージメントレベルを示した．",
-    "timestamp": "2025-02-22T16:47:51.612Z",
+    "translation": "[原文]\n2 Related Work\n[翻訳]\n２ 関連研究．\n\n[原文]\nResearchers developed different methods to investigate gesture-\nbased interfaces for HAR over recent years, each with its own ad-\nvantages and limitations.\n[翻訳]\n研究者たちは，近年，HARのためのジェスチャーベースインターフェースを調査するために様々な手法を開発したが，それぞれに独自の利点と制限があった．\n\n[原文]\nEarly methods required the user to have a trackable marker attached\non the fingers so the mobile camera can track their position.\n[翻訳]\n初期の手法では，モバイルカメラが指の位置を追跡できるように，ユーザが追跡可能なマーカーを指に取り付ける必要があった．\n\n[原文]\nFor\ninstance, Henrysson et al. [Henrysson et al. 2007] attached a fidu-\ncial marker on the fingertip and used the mobile phone’s front cam-\nera to capture its spatial position and pose for midair input.\n[翻訳]\n例えば，Henryssonらは[Henrysson et al. 2007]指先にfiducialマーカーを取り付け，モバイルフォンのフロントカメラを使用して，空中入力のための空間位置と姿勢をキャプチャした．\n\n[原文]\nH¨ urst\nand Wezel [H¨ urst and Wezel 2013] investigated the potential for\nfinger-based interaction by applying two color markers on two fin-\ngers respectively, and testing it in a mobile AR board game.\n[翻訳]\nH¨urstとWezel [H¨urst and Wezel 2013]は，それぞれ2本の指に2つのカラーマーカーを適用し，モバイルARボードゲームでテストすることにより，指ベースのインタラクションの可能性を調査した．\n\n[原文]\nCom-\npared against the phone’s touch screen and orientation sensors in-\nput, finger-based interaction produced the worst performance, but a\nhigh score of fun-engagement level that indicated the potential for\ngaming applications.\n[翻訳]\nスマートフォンのタッチスクリーンおよび方位センサーの入力と比較して，指ベースのインタラクションは最悪のパフォーマンスを示したが，ゲームアプリケーションの可能性を示す高い楽しいエンゲージメントレベルを示した．",
+    "timestamp": "2025-02-22T17:08:44.644Z",
+    "type": "bot"
+  },
+  {
+    "conversationId": "1740243984812",
+    "original": "2 Related Work\nResearchers developed different methods to investigate gesture-\nbased interfaces for HAR over recent years, each with its own ad-\nvantages and limitations.\nEarly methods required the user to have a trackable marker attached\non the fingers so the mobile camera can track their position. For\ninstance, Henrysson et al. [Henrysson et al. 2007] attached a fidu-\ncial marker on the fingertip and used the mobile phone’s front cam-\nera to capture its spatial position and pose for midair input. H¨ urst\nand Wezel [H¨ urst and Wezel 2013] investigated the potential for\nfinger-based interaction by applying two color markers on two fin-\ngers respectively, and testing it in a mobile AR board game. Com-\npared against the phone’s touch screen and orientation sensors in-\nput, finger-based interaction produced the worst performance, but a\nhigh score of fun-engagement level that indicated the potential for\ngaming applications.",
+    "translation": "",
+    "timestamp": "2025-02-22T17:06:29.710Z",
+    "type": "user"
+  },
+  {
+    "conversationId": "1740243984812",
+    "original": "",
+    "translation": "２．関連研究．\n\n近年，研究者らはHARのためのジェスチャベースインターフェースを調査するために様々な手法を開発してきたが，それぞれに長所と短所がある．\n\n初期の手法では，モバイルカメラが指の位置を追跡できるように，ユーザが追跡可能なマーカーを指に取り付ける必要があった．例えば，Henryssonらは[Henrysson et al. 2007]，指先にfiducialマーカーを取り付け，携帯電話のフロントカメラを使って，空中入力をするための空間的な位置と姿勢を捉えた．H¨ urstとWezel [H¨ urst and Wezel 2013]は，それぞれ2本の指に2つのカラーマーカーを適用し，モバイルARボードゲームでテストすることにより，指ベースのインタラクションの可能性を調査した．携帯電話のタッチスクリーンおよびオリエンテーションセンサーの入力と比較すると，指ベースのインタラクションは最悪のパフォーマンスを示したが，ゲームアプリケーションの可能性を示す高い楽しさ-エンゲージメントレベルのスコアを示した．",
+    "timestamp": "2025-02-22T17:06:33.627Z",
+    "type": "bot"
+  },
+  {
+    "conversationId": "1740243984812",
+    "original": "2 Related Work\nResearchers developed different methods to investigate gesture-\nbased interfaces for HAR over recent years, each with its own ad-\nvantages and limitations.\nEarly methods required the user to have a trackable marker attached\non the fingers so the mobile camera can track their position. For\ninstance, Henrysson et al. [Henrysson et al. 2007] attached a fidu-\ncial marker on the fingertip and used the mobile phone’s front cam-\nera to capture its spatial position and pose for midair input. H¨ urst\nand Wezel [H¨ urst and Wezel 2013] investigated the potential for\nfinger-based interaction by applying two color markers on two fin-\ngers respectively, and testing it in a mobile AR board game. Com-\npared against the phone’s touch screen and orientation sensors in-\nput, finger-based interaction produced the worst performance, but a\nhigh score of fun-engagement level that indicated the potential for\ngaming applications.",
+    "translation": "",
+    "timestamp": "2025-02-22T17:06:43.199Z",
+    "type": "user"
+  },
+  {
+    "conversationId": "1740243984812",
+    "original": "",
+    "translation": "2 関連研究．\n近年，研究者らはHARのためのジェスチャベースインターフェースを調査するために，それぞれ独自の利点と限界を持つ様々な手法を開発してきた．\n\n初期の手法では，モバイルカメラが指の位置を追跡できるように，ユーザが追跡可能なマーカーを指に取り付ける必要があった．例えば，Henryssonらは[Henrysson et al. 2007]，指先にfiducialマーカーを取り付け，携帯電話のフロントカメラを使用して，空中入力のための空間位置と姿勢を捉えた．H¨urstとWezel [H¨urst and Wezel 2013]は，2本の指にそれぞれ2つのカラーマーカーを適用し，モバイルARボードゲームでテストすることにより，指ベースのインタラクションの可能性を調査した．携帯電話のタッチスクリーンやオリエンテーションセンサーの入力と比較して，指ベースのインタラクションは最悪のパフォーマンスを示したが，ゲームアプリケーションの可能性を示す高いスコアの楽しさ-エンゲージメントレベルを示した．",
+    "timestamp": "2025-02-22T17:06:46.916Z",
+    "type": "bot"
+  },
+  {
+    "conversationId": "1740243984812",
+    "original": "2 Related Work\nResearchers developed different methods to investigate gesture-\nbased interfaces for HAR over recent years, each with its own ad-\nvantages and limitations.\nEarly methods required the user to have a trackable marker attached\non the fingers so the mobile camera can track their position. For\ninstance, Henrysson et al. [Henrysson et al. 2007] attached a fidu-\ncial marker on the fingertip and used the mobile phone’s front cam-\nera to capture its spatial position and pose for midair input. H¨ urst\nand Wezel [H¨ urst and Wezel 2013] investigated the potential for\nfinger-based interaction by applying two color markers on two fin-\ngers respectively, and testing it in a mobile AR board game. Com-\npared against the phone’s touch screen and orientation sensors in-\nput, finger-based interaction produced the worst performance, but a\nhigh score of fun-engagement level that indicated the potential for\ngaming applications.",
+    "translation": "",
+    "timestamp": "2025-02-22T17:06:51.801Z",
+    "type": "user"
+  },
+  {
+    "conversationId": "1740243984812",
+    "original": "",
+    "translation": "2 関連研究．\n近年，研究者らはHARのためのジェスチャーベースインターフェースを調査するために，それぞれに利点と限界を持つ様々な手法を開発した．\n\n初期の手法では，モバイルカメラが指の位置を追跡できるように，ユーザーが追跡可能なマーカーを指に取り付ける必要があった．例えば，Henryssonら[Henrysson et al. 2007]は，指先にfiducialマーカーを取り付け，携帯電話のフロントカメラを使って，空中入力のための空間位置と姿勢を捉えた．H¨ urstとWezel [H¨ urst and Wezel 2013]は，2本の指にそれぞれ2つのカラーマーカーを適用し，モバイルARボードゲームでテストすることで，指ベースのインタラクションの可能性を調査した．携帯電話のタッチスクリーンや方位センサーの入力と比較して，指ベースのインタラクションは最悪のパフォーマンスを示したが，高いスコアの楽しさエンゲージメントレベルは，ゲームアプリケーションの可能性を示唆していた．",
+    "timestamp": "2025-02-22T17:06:55.245Z",
+    "type": "bot"
+  },
+  {
+    "conversationId": "1740295615981",
+    "original": "PDF: 3D_Mirrored_Object_Selection_for_Occluded_Objects_in_Virtual_Environments.pdf",
+    "translation": "",
+    "timestamp": "2025-02-22T19:37:59.760Z",
+    "type": "user"
+  },
+  {
+    "conversationId": "1740295615981",
+    "original": "",
+    "translation": "2020年9月26日受付、2020年10月25日受理、2020年11月3日発行。\n現在のバージョンは2020年11月13日。\nDigital Object Identifier 10.1 109/ACCESS.2020.3035376\n仮想環境における遮蔽された物体のための3Dミラーオブジェクト選択\nJOONG-JAE LEE\n1および JUNG-MIN PARK\n2、（IEEE会員）\n1共存のための人間中心インタラクションセンター、ソウル136-791、韓国\n2知能インタラクティブロボティクスセンター、ロボティクス・メディア研究所、韓国科学技術研究院、ソウル136-791、韓国\n責任著者：Jung-Min Park (pjm@kist.re.kr)\n本研究は、韓国政府（MSIP）の資金提供による韓国研究財団の助成金による、共存のための人間中心インタラクションに関するグローバルフロンティア研究開発プログラム（助成金番号2011-0031425）の一部、およびプロジェクト2E30280に基づく韓国科学技術研究院（KIST）機関プログラムの一部によって支援された。\n概要：3D仮想現実（VR）空間における仮想オブジェクトの操作に対する要求が高まっており、それはユーザーが目的のオブジェクトを選択することから始まる。既存の選択方法は、ユーザーの疲労を最小限に抑える直感的で自然な体験を提供することを目的としている。典型的なレイキャスティング法は、仮想空間内のオブジェクトが疎にまたは均等に配置されている場合に効果的であるが、これらのオブジェクトがより小さかったり、遠く離れていたり、特にそれらが重なり合っている場合には、選択が困難になる。本研究では、効果的な選択プロセスを通じて、これらの課題に対処する方法を提案する。3Dミラーリングに基づいて、提案する方法は、遮蔽された仮想オブジェクトをより効率的に選択できる新しいインタラクションメタファーを提供する。21人の被験者による体系的な実験を行い、オブジェクトのサイズ、空間密度、および遮蔽の程度によって決定されるさまざまなレベルのターゲット可視性を使用する。その結果、遮蔽された3D環境において、提案する3Dミラー選択プロセスは、従来の視線支援選択プロセスよりも優れており、より高いユーザー満足度を提供することが示された。\n索引語：3Dミラー、オクルージョン、3Dオブジェクト選択、視線ベースのレイキャスティング、ナビゲーション、仮想現実。\nI. 導入\n多様なユーザーインターフェースデバイスの最近の進歩とコスト削減により、一般の人々が仮想現実（VR）を体験する機会が増えている。単純な視覚化を超えて、3D VRアプリケーションは、ユーザーが仮想空間でインタラクトすることを可能にする[1]。この新たな傾向に伴い、従来の2Dベースのデスクトップインタラクションによって提供されるものよりも自由度の高い3Dユーザーインタラクションに対する需要が高まっている[2]。VRでは、3Dインタラクションは、ユーザーが現実世界にいるかのような錯覚を生み出し、現実のオブジェクトを扱っているかのように3D仮想オブジェクトを操作することを可能にする。特に、仮想オブジェクトの操作は、没入感を高めるために重要である。ただし、3Dユーザーインターフェース（UI）は、2Dの対応するものよりも実装が大幅に難しい。たとえば、3D選択技術は、迅速な選択サポート、高精度、理解の容易さ、制御、最小限のユーザー疲労、および遮蔽された環境での選択可能性など、多くのユーザビリティ要件を同時に満たす必要がある[3]。\nオブジェクト選択インタラクションは、3D空間での操作インタラクションを実行するための最も基本的なタスクである[4]。通常、レイキャスティングは、レイの交差を介してオブジェクトをすばやく選択するために使用される[5]。ただし、複数のオブジェクトがレイと交差し、障害物を作成する場合、この方法は最も近いオブジェクトの選択のみを可能にする。この問題を解決するために、半透明[6]または仮想X線[7]効果を介して、遮蔽されたオブジェクトを見えるようにするなど、さまざまな方法が提案されている。さらに、選択可能性を高めるために、シーンに複数のビューを提供することができる。ナビゲーションを介して可視性を実現するために、仮想環境[6]、[8]を再配置することも効果的に適用できる[9]。そのような多様な方法にもかかわらず、ターゲットオブジェクトが完全に遮蔽されている場合に、簡単かつ正確なオブジェクト選択を可能にする技術はほとんどない。研究者は、ソリューションとして、即時選択方法よりも正確な漸進的選択技術[10]を提案している。ただし、そのような技術では、遮蔽されたターゲットオブジェクトを選択するために複数のステップが必要である。ユーザビリティの観点から、選択コンテキストから操作コンテキストへの変換は本質的に離散的である。\n第8巻、2020年。本研究は、クリエイティブ・コモンズ表示4.0ライセンスの下でライセンスされている。詳細については、https://creativecommons.org/licenses/by/4.0/200259を参照のこと\nJ.-J. Lee、J.-M. Park：仮想環境における遮蔽されたオブジェクトの3Dミラーオブジェクト選択\n図1：遮蔽された環境における3Dミラーオブジェクト選択。\n本研究では、直接見ることができないシーンやオブジェクトを間接的に表示するためにミラーを使用する新しいインタラクションメタファーを提案する。提案する3Dミラーオブジェクト選択方法は、複数の仮想オブジェクトが奥行き方向に遮蔽されている場合にターゲットオブジェクトを選択できないという問題を解決する。仮想ミラーを使用すると、ユーザーは遮蔽されたオブジェクトの遠近法と形状を区別でき、ミラーに表示されているオブジェクトの中からターゲットを簡単に選択できる。\n本研究の主な貢献は次のとおりである。\n\u000f他のオブジェクトによって遮蔽されたターゲットオブジェクトを簡単に選択できる3Dミラーに基づく新しいタイプのインタラクションメタファーを紹介する（図1を参照）。\n\u000f仮想オブジェクトが重なり合う状況で、提案する方法によりターゲットオブジェクトを簡単に選択できることを示すユーザー実験を実施する。\nII. 関連研究\nA. 3Dベースのオブジェクト選択技術\n3Dオブジェクト選択方法は、主に仮想ハンドベースの技術とポインティングベースの技術に分類される。前者の場合、ハンドアバターが表示され、仮想オブジェクトと接触して選択することができる。後者の技術は、視線追跡またはハンドヘルドデバイスを使用して、レイの機能を利用して目的のオブジェクトを選択する。Poupyrevらは、仮想ハンドを使用して、ユーザーが到達できない領域に腕を伸ばしてターゲットオブジェクトを選択できるようにするGo-Go技術を提案した[11]。仮想空間でレイキャスティングによってユーザーがオブジェクトをつかむことを可能にするHOMERと呼ばれる技術が開発された。また、選択されたオブジェクトを操作するために、��の延長に基づいたハンドアバターを適用した[5]。ユーザーの2つの手によって形成される角度を使用してレイの方向を調整する2本指ポインティング技術が開発され、ターゲットオブジェクトを選択した[10]。視線ベースの方法も多数作成され、空中ジェスチャーコントロールと統合されている[12]、[13]。Argelaguetらは、3Dオブジェクト選択技術を詳細かつ体系的に調査し、3D選択パフォーマンスに影響を与える主要な要因を特定した[3]。\nオブジェクト選択技術に関しては、一般的に仮想ポインティング法の方が仮想ハンド法よりも優れたパフォーマンスを発揮する。ただし、仮想ポインティング法では、ターゲットオブジェクトが小さかったり、遠く離れていたり、移動中の場合に、レイを正確に制御することが難しい。したがって、選択パフォーマンスが低下し、選択に必要な時間が増加する。\nB. 遮蔽されたオブジェクト選択技術\nオクルージョン処理は、3Dオブジェクト選択方法の設計において最も困難な問題の1つである。Elmqvistらは、視点vからオブジェクトoが遮蔽されているとは、oから現在の視点vへの線分が遮断されていない場合に定義した[14]。通常、オクルージョンは密集した散乱環境で発生する。これは、ターゲットオブジェクトの選択に必要な時間が増加する主な原因である。ElmqvistとTsigasは、オクルージョン管理方法を5つの設計パターンに分類し、それらの特性を要約した。まず、複数のビューポートパターンを使用して、単一の3D環境の2つ以上の別個のビューを提供した。たとえば、world-in-miniature技術は、3Dシーンの鳥瞰図を提供し、ユーザーがシーン全体の構造を簡単に識別できるようにする[15]。次に、透明度とマルチブレンディング技術を適用する仮想X線パターンを使用すると、ユーザーはオブジェクトを通して見ることができる。この機能は、オクルージョンを削除するか、半透明にして、ターゲットオブジェクトの可視性を向上させる。BurnsとFinkelsteinは、遮蔽されたオブジェクトを視覚化するためにカットアウェイレンダリングを使用する方法を提案した[7]。この方法の強みは、遮蔽されたターゲットオブジェクトの目的の内部を見ることができることである。弱点は、重要な周囲のコンテキスト情報が失われる可能性があることである。3番目に、ツアープランナーパターンを使用すると、すべてのターゲットオブジェクトをオクルージョンなしで見ることができるカメラアニメーションパスを識別するために、オフライン/オンライン計算を実行できる。その強みは、環境自体を変更しないことである。ただし、環境の変化が動的な場合、多くのパス計算リソースが必要になる。Style-Camシステムは、ユーザーのインタラクティブな視覚体験を作成し、カメラのパスを空間的および時間的に制御し、計画されたパスに基づいて自動ツアーを作成する[16]。McGuffinらは、ボリュームのあるオブジェクトを切断、開放、および広げることができる変形ベースのボリューム爆発技術を提案し、ユーザーがボリュームデータを閲覧できるようにした[17]。4番目に、ボリュームプローブパターンは、オブジェクトを分離してオクルージョン問題を解決することにより、ユーザーのインタラクションを利用する。ターゲットオブジェクトの選択を可能にするために、ユーザーのコマンドに応じてバルーンを膨らませることにより、オクルーダーをオクルディーから分離するために、空間歪曲インタラクション方法（つまり、BalloonProbe）が作成された。Cashionらは、動的で高オブジェクト密度の環境で拡張法を使用して選択精度を向上させる方法を提案した[18]。5番目に、プロジェクトディストーターパターンを使用して、オブジェクトの可視性を最大化するために、同じ3Dシーンの2つ以上の統合ビューを提供した。ビュー投影アニメーションは、この方法の典型的な例であり、オブジェクトサイズを歪みなしに保持する並列投影とともに、3D環境のリアルなビューを提示する視点を投影する。これにより、遮蔽されたオブジェクトの可視性が向上する[14]。したがって、並列投影を使用してターゲットオブジェクトを簡単に見つけることができる。ただし、投影モードを頻繁に切り替える必要があるため、リアルタイムの3Dインタラクションを実行するには適切ではない。Sidenmarkらは、視線支援による遮蔽されたオブジェクトの選択のためのコーンキャスティングアウトラインとモーション生成の概念を統合したOnline Pursuitsを紹介した[34]。コントローラーベースおよび視線ベースのレイキャスティングを含むさまざまな技術を使用して、異なるオブジェクト密度とオクルージョンレベルでのツールのパフォーマンスを比較した。ただし、オブジェクト密度とオクルージョンレベルは、それぞれ50％以上と50％未満の2つのカテゴリに大まかに分割された。\nC. 視線サポートオブジェクト選択技術\n前述のように、仮想ポインティング技術は、視線追跡またはハンドヘルドデバイスを使用して、レイキャスティングを介して仮想オブジェクトを選択する。TanriverdiとJacobは、視線ベースのポインティングが腕の延長法よりも速いことを発見した[19]。対照的に、Courniaらは、視線ベースのポインティングがハンドベースのポインティングよりも遅いと報告した[20]。そのような矛盾の存在は、オブジェクト選択タスクのみ、または選択後の操作のみが考慮されるかどうかによって異なる。\nVellosoらは、アイトラッキング技術の進歩により、オブジェクト選択結果の精度と堅牢性が向上したため、選択のために複数のターゲットオブジェクトを頻繁に変更する必要がある場合、視線ベースのオブジェクト選択がより効率的に実行されることを実証した[21]。これらの利点のため、オブジェクト選択のための視線追跡とオブジェクト操作のための空中ハンドジェスチャーを組み合わせる試みが数多く行われている[22]。Chatterjeeらは、アイトラッキングとフリースパージェスチャーを使用して、インタラクティブシステムを制御した[23]。Pfeufferらは、3D仮想空間でターゲットオブジェクトを選択するために視線を使用する方法を実装した。フリーハンドジェスチャーベースの技術を使用して、それらを操作した。この方法は、さまざまなアプリケーション（たとえば、3D操作、シーンナビゲーション、および画像ズーミング）に実装された[24]。Mohanらは、ユーザーがオブジェクト選択のために特徴的な2段階の視線ジェスチャーを実行し、意図しない確認を減らすDualGazeインタラクション方法を提示した[36]。DualGazeの平均選択時間は、固定視線よりも大幅に速かった。ただし、この速度の優位性は、タスクの総完了時間を測定した後には明らかではなかった。近年、レイキャスティング技術に���けるオブジェクト選択エラーは、最も近いターゲットの選択を可能にするレイフィルタリング用のカーソルを追加することにより削減されている[25]。GrossmanとBalakrishnanは、ターゲット選択のためのエリアバブルカーソルを提案した。ただし、目的のオブジェクトが小さくて密度が高い場合に、複数のオブジェクトが同時に選択されるという問題があった[32]。Choiらは、アイトラッキングインターフェースとバブルカーソルを組み合わせることにより、バブル視線カーソルを開発した。重複するものを除いて、小さなオブジェクトの選択を検討した[33]。Ryuらは、視線追跡を使用して選択の候補オブジェクトを概算的に決定する方法を紹介した[26]。次に、候補オブジェクトの厚さとユーザーの手のポーズを一致させてターゲットを選択した。この方法は、現実世界でオブジェクトがどのように把握されるかと似ており、ターゲットオブジェクトのサイズを認識できる限り、ターゲットオブジェクトが遮蔽されている環境でも選択を可能にする。さらに、選択されたオブジェクトは、モードを個別に変換することなくすぐに操作できる。Schweigertらは、MAGICポインティング技術と参照空中ポインティングジェスチャー技術を組み合わせて遠くのオブジェクトを選択するEyePointing視線ベースの選択技術を提案した[35]。EyePointingでは、視線を使用してオブジェクトを参照し、ポインティングジェスチャーをトリガーとして使用した。\nIII. 3Dミラーオブジェクト選択\n3D仮想環境でターゲットオブジェクトの選択の難易度を決定する2つの主要な要因は、オブジェクト密度とオブジェクトオクルージョンである。オブジェクト密度が高い場合（つまり、環境が密集している場合）、ターゲットオブジェクトを選択する精度は高くなければならない。図2（a）に示すように、ターゲットオブジェクトオクルージョンの高度な程度は、オブジェクト選択精度が高い場合でも、正確な選択を妨げる可能性がある。そのような場合、ユーザーはターゲットオブジェクトが適切に見える別の場所に移動するか、図2（b）に示すように、オブジェクトを選択するために頭の位置または視点を変更する必要がある。明らかに、これらのアクティビティにはユーザーからの大きな運動運動が必要であり、しばしば疲労を引き起こす。\n本研究で提案する方法は、日常生活で広く使用されているオブジェクトであるミラーの機能を使用して、ユーザーが遮蔽されたターゲットオブジェクトを簡単に選択できるようにする。この技術は、ミラーが直接視線から隠された領域を表示できるという事実を利用する。図2（c）に示すように、ターゲットオブジェクトが後部位置にあるシリンダーであると仮定すると、前面のオブジェクトがターゲットを完全に遮蔽している場合でも、ミラーを使用してオブジェクトを見ることができる。したがって、ユーザーはターゲットを簡単に区別できる。\n提案する方法には、図3に示すように、4つのステップが含まれる。最初のステップでは、視線ベースのインタラクションを使用して、選択可能なオブジェクト（たとえば、ユーザーの視線からのレイと交差する2つ以上の仮想オブジェクト）を検出する。2番目のステップでは、選択可能なオブジェクトのミラーイメージがミラー平面に表示される。3番目のステップでは、ミラーイメージを介した視線ベースのポインティングを使用してターゲットオブジェクトを選択する。最後のステップでは、ミラー平面がオフになる。これはターゲットオブジェクトが選択されると自動的に完了し、選択キャンセルはユーザー入力によって指定できる。\nアルゴリズム1は、3Dミラー選択プロセスの擬似コードを示しており、各ステップの詳細な説明を提供している。A. 選択可能なオブジェクトの検出（抽出）\n他のオブジェクトによって引き起こされるオクルージョンが可視性を大幅に低下させるため、混雑した環境でターゲットオブジェクトを正確に選択することは難しい。図4は、ターゲットオブジェクトのオクルージョンレベルによって決定される可視性の違いを示している。場合によっては、ターゲットオブジェクト（つまり、オクルディー）が部分的にしか遮蔽されていない。逆に、場合によっては、ターゲットオブジェクト全体が遮蔽されているため、可視性がゼロになることさえある。\nそのような遮蔽された環境では、オブジェクト選択の候補を決定するための最初のステップとして、視線ベースのレイキャスティングが使用される。ターゲットオブジェクトがより見える場合、同じ一般的なレイキャスティングを介して簡単に選択できる。ただし、部分的または完全に遮蔽されたターゲットオブジェクトを選択するには、より多くの焦点が必要になる。視線ベースのポインティングを使用して選択するのに苦労する代わりに、オブジェクト選択の前に3Dミラーリングを使用してオブジェクトの可視性を高めることを選択する。\nターゲットオブジェクトを選択するには、まず選択可能なオブジェクトを識別する必要がある。これを実現するには、オクルーダーを貫通してオブジェクトを表示する。つまり、視線ベクトルEgと交差するオブジェクトは、選択可能なオブジェクトのSOグループとして抽出される。\nSODfo ijEg\\oi6D;; iD1;:::; ng; (1)\nここで、\\は幾何学的交差点を示します。\nB. ミラーイメージの生成とミラー平面への表示\n遮蔽されたターゲットオブジェクトを含む選択可能なオブジェクトの可視性を向上させるために、ミラーイメージを生成するには、オクルージョンがない仮想カメラの位置を推定する必要がある。視線とミラー平面の間に他のオブジェクトがある場合は、ミラーイメージを生成する前に削除する必要がある。この画像をユーザーの視線に従って表示するには、ミラー平面の位置を適応的に調整する必要がある。\n最初のステップでは、ミラーイメージを生成する仮想カメラの位置を決定する。元の視点からは、選択可能なオブジェクトは遮蔽されている。ただし、図5（a）に示すように、仮想カメラを配置してミラーと同じ方向にレンダリングすると、結果のイメージの可視性が大幅に向上する。ミラー平面と視線ベクトルEgの間の角度が\u000e度の場合、選択可能なオブジェクト全体をレンダリングできる仮想カメラの位置PCD(Pcx;Pcy;Pcz)は、次のように計算される。\nPcDP3CH\u0002En\nkEnk(2)\nここで、Enは点P3を通過する\u0000\u0000!P3P2の法線ベクトルを参照する。\n式（2）では、未知数P3、En、およびHの解は、次のように計算できる。まず、P3は、o1の中心点（つまり、選択可能なオブジェクトに最も近いオブジェクト）とo3の中心点（つまり、選択可能なオブジェクトから最も遠いオブジェクト）を接続する線の中心点を計算することで簡単に取得できる。次に、Enは、Y軸に沿って\u000eの値で視線ベクトルEgを回転させる法線ベクトル、Eg\u000eを計算することにより取得される。\n200262 第8巻、2020年\nJ.-J. Lee、J.-M. Park：仮想環境における遮蔽されたオブジェクトの3Dミラーオブジェクト選択\n図5：選択可能なオブジェクトのミラーイメージ生成。（a）ミラー平面が視線ベクトルEgと\u000e度の角度にある場合、これは選択可能なオブジェクトのミラーイメージを生成するための仮想カメラの位置である。\nまず、点P3は、選択可能なオブジェクトに最も近いオブジェクトであるo1の中心点と、選択可能なオブジェクトから最も遠いオブジェクトであるo3の中心点を接続する線の中心点である。HandP3から点Pcへの方向ベクトルを計算すると、式（2）を使用して仮想カメラの位置を計算できる。（b）最も外側の点（たとえば、PLB）を決定するには、仮想カメラのFOVに選択可能なオブジェクトが含まれる位置の計算が必要である。\n式（2）では、仮想カメラのFOVにすべての選択可能なオブジェクトが含まれている必要がある。これは、カメラのFOVの境界を満たす選択可能なオブジェクトの最も外側の点を決定することで実現できる。図5（b）に例を示す。オブジェクトo3の最小境界ボックス（MBB）を計算した後、ミラー平面に垂直な方向に、s軸方向の最も外側の点はs1ands2である。ここで、t軸方向のカメラに近い点t1が、最終的な最も外側の点PLBになる。最も遠いオブジェクトのMBBの左上の点と最も近いオブジェクトのMBBの右上の点の間で、仮想カメラに最も近い点が最も外側の点である。仮想カメラの位置が決定されると、レンダリングが実行され、ミラーイメージが生成され、3Dミラー平面に表示される。これにより、ユーザーは可視性が大幅に向上したオブジェクトを表示できる。\nすべての選択可能なオブジェクトが仮想カメラのFOVに含まれない可能性がある。念のため、仮想カメラの位置を後方に移動すると、選択可能なオブジェクトを最大限に含めることができる。ただし、それらのサイズは小さくなる。表示されない選択可能なオブジェクトの場合、ユーザーは図6（a）に示すように3Dミラーを調整できる。\nミラーの位置を移動する代わりに、図6（b）〜（d）に示すように、Z軸に沿って選択可能なオブジェクト間を移動するために、3Dミラーにカーソルを提供する。赤と青の矢印は、それぞれ後方と前方方向を示す。実験では、上記の方法で選択可能なオブジェクトを移動するために、ゲームパッドの左右のショルダートリガーボタンを使用できた。\n図6：Z軸に沿って選択可能なオブジェクトを前後に移動する。図は、選択可能なオブジェクトの数が多すぎる場合、または選択可能なオブジェクト間の距離がミラー内のすべてのオブジェクトを表示するには遠すぎる場合に、選択可能なオブジェクト間を前後に移動する方法を示している。（i）選択可能なオブジェクトが多い場合と、（ii）選択可能なオブジェクト間の距離が遠すぎる場合。（a）これらの選択可能なオブジェクトは、3Dミラーの位置を近づけたり、押し出したりすることで観察できる。（b）最も近い選択可能なオブジェクトが3Dミラーを通して表示されるシーン。（c）中間距離にある選択可能なオブジェクトが3Dミラーを通して表示されるシーン。（d）最も遠い選択可能なオブジェクトが3Dミラーを通して表示されるシーン。3Dミラー平面の左上と右上の矢印は、対応する方向に移動できることを示している。赤い矢印はユーザーが遠ざかることができることを示し、青い矢印はユーザーが近づくことができることを示している。\n2番目のステップでは、オブジェクトが切り取られた。コンピューターグラフィックスの分野で3Dシーンをリアルタイムで表示するために不要なレンダリングを削減する方法である可視性カリングを使用して、オブジェクトを削除できる。具体的には、可視性カリングは、非表示サーフェスの削除を実行する前に非表示オブジェクトを除外する技術であるため、3Dシーン内のすべてのオブジェクトを再現する必要はない。典型的なカリング方法には、視錐台カリング、背面カリング、およびオクルージョンカリングが含まれる[27]。視錐台（カメラのFOV）カリング方法は、表示錐台の外側のジオメトリを除外する。比較すると、背面カリングは、レンダリング中にビューアーに面するジオメトリのみを残し、反対側（ビューアーの後ろ）のジオメトリを除外する。オクルージョンカリングは、遮蔽されたオブジェクトのレンダリングを無効にする方法である。\n視錐台カリングと同様に、視線ベクトルEgとミラー平面の間のカリング空間（CS）内のオブジェクト、またはオブジェクトのMBBがカリング空間の境界を満たすオブジェクトは、式（4）で切り取られたオブジェクト（CO）として決定される。\nCODfo ij(oi\\CS6D;)[(oi\u0012CS); iD1;:::; ng; (4)\nここで、\\は幾何学的交差を表し、\u0012は幾何学的サブセット関係を表す。\nたとえば、図7では、オブジェクトo5、o8、およびo9は、選択可能なオブジェクトのオクルージョンを作成するオクルーダーである。それらを「切り取られたオブジェクト」（CO）と呼び、ミラーイメージを生成するためにレンダリング中に除外する。最後のステップでは、ミラー平面の位置はユーザーの視線に応じて適応的に調整される。オブジェクトが視線のみで選択されると仮定すると（ユーザーの頭のポーズを反射せずに）、視線ベクトルのピッチ（\u0012）とヨー（'）（ただし、ロールではない）の回転は、次のように考慮する必要がある。\n\u0000!g'\u0012DRz;y;x(0;';\u0012 )EgDRz(0)R y(')Rx(\u0012)EgDRy(')Rx(\u0012)Eg:\n(5)\n図8（a）に示すように、オブジェクトを選択するために視線がX軸に沿って移動された場合、ミラー平面のピッチ角\u00121and\u00122が回転する。同様に、視線がY軸に沿って移動された場合、ミラー平面のヨー角'1and'2はその量だけ回転する。\nC. 3Dミラーでのターゲットオブジェクト選択\n図9（a）に示すように、選択可能なオブジェクトがミラー平面に表示される場合、元の視点V1から見ることができないオブジェクトは、ミラー平面に面する視点V2から見えるようになる。3Dミラーオブジェクト選択技術を使用すると、ミラーを介して遮蔽されたターゲットオブジェクトの間接的な選択が可能になる。図9に示すように、ターゲットオブジェクトは視線ベースのポインティングを使用してミラーイメージから選択される。ここで、ミラーイメージからターゲットオブジェクトを選択するには、視線ベクトルとオブジェクトの間で交差テストを実行する。本研究では、ミラーイメージの深度バッファーを使用してこれを実現した。図9（b）で見ることができるように、オブジェクトは異なる深度データを持っているため、各オブジェクトが視線ベクトルと交差するかどうかを簡単に判断できる。\n図9：ターゲットオブジェクトは、ミラー平面に表示されるミラーイメージから選択される。（a）元の視点V1から見えなかった選択可能なオブジェクトは、視点V2から見えるようになるため、ターゲットオブジェクトを簡単に選択できる。（b）ミラーイメージからターゲットオブジェクトを選択するには、選択可能なオブジェクトの深度テクスチャを使用して、視線ベクトルと交差するかどうかをテストする。\nD. オブジェクト選択の確認とキャンセル\n視線を使用してターゲットオブジェクトを選択するときに発生する可能性のあるよく知られた問題は、ミダスタッチの問題[28]である。この問題は、選択可能なオブジェクトが決定され、ターゲットオブジェクトがミラー平面から選択される場合に、提案する方法でも発生する可能性がある。この問題を解決するために、図3（d）に示すように、滞留時間を使用してターゲットオブジェクトが選択されるかどうかを決定する。ユーザーの視線がターゲットオブジェクトに一定時間留まると、選択が自動的に確認され、ミラー平面が消える。ターゲットオブジェクトが選択可能なオブジェクトの中にない場合、またはユーザーが別の場所で別のオブジェクトを選択したい場合は、現在の選択モードをキャンセルできる。ユーザーは、図3（f）に示すように、3Dミラー平面を使用して選択プロセスを明示的に取り下げることができる。IV。実験結果\n提案する3Dミラーオブジェクト選択方法のパフォーマンスを評価するために、仮想環境で遮蔽されたオブジェクトのターゲットオブジェクトに対して、さまざまなターゲットサイズ、空間密度、および可視性レベルを設定した。ユーザーの好みも調査した。実験では、視線ベースのレイキャスティングをベースライン比較技術として使用し、ゲームパッドを介して制御されるナビゲーション機能は、ユーザーの視点からターゲットオブジェクトが見えない状況のために提供された。選択方法を評価するために、同種オブジェクト選択と異種オブジェクト選択の2つの異なるシナリオが実施された。\nA. 装置\n実験環境を図10に示す。視線で仮想オブジェクトを選択するためである。仮想環境は、フルHD（1,920\u00021:080）解像度の55インチフラット3Dディスプレイに表示された。ディスプレイとユーザー間の距離は約70cmだった。PCは、32GBのメモリとNVidia GTX780を搭載したi7-4790 Intel CPUを備えており、Windows8.1で実行されていた。Microsoft Visual Studio CCCを使用して、CCCでミラーオブジェクト選択のアプリケーションを開発した。視線追跡には、Development Kit2を備えたTobii Rexアイトラッカーを使用した。\n図10：3Dオブジェクト選択の実験設定。\nB. スタディ1：同種オブジェクト選択\n選択方法と、可視性条件、空間密度、ターゲットサイズなど、3D環境機能の影響を評価する実験を行った。この実験では、同種オブジェクトの追加のフィルタリングなしに、視線追跡を使用してターゲットオブジェクトを選択した。\n1) 独立変数\n独立変数には、選択方法、可視性条件、空間密度、ターゲットサイズが含まれていた。選択タスクを開始するときの可視性条件は、ユーザーに見えて妨害者によって遮られていないターゲットの量が定義されていた：0％（完全に遮蔽）、10％以下（高度に遮蔽）、および40〜50％（部分的に遮蔽）。\n密度は、オブジェクト内の物質の量に関連して、オブジェクトが占有する空間の量を表す。同様に、空間密度は、インタラクションスペースに含まれる球形オブジェクトの数で定義した。2つのインタラクションスペースをテストした：100\u000260\u0002100cm（疎なオクルージョンの場合）と75\u000250\u000275cm（密なオクルージョンの場合）。妨害者とターゲットオブジェクトの半径は同じであり、2cm（小）と3cm（大）の2種類のオブジェクトを使用した。\n2) 参加者\n平均年齢が28.6歳（標準偏差D7.1）の22〜54歳の無給参加者21名（男性14名）を募集した。タスクを開始する前に、参加者にいくつかのバイナリ質問または5点リッカート質問（つまり、1Strongly disagreeから5Strongly agree）に回答するよう求めた。参加者は、仮想環境でのインタラクション（たとえば、ゲーム）についていくつかの経験を報告した。4名を除き、ほとんどの参加者は視線追跡に精通していなかった（平均標準偏差D1.80.9）。参加者の半数は、オブジェクト選択についていくつかの経験があると報告した。\n3) 手順\n実験のタスクには、仮想環境での静的ターゲット選択が含まれていた。遮蔽された環境での選択タスクを評価するために、[30]および[31]と同様の実験プロトコルに従った。各トライアルでは、40個の妨害者（黄色の球）とターゲットオブジェクト（赤い球）を使用した。ターゲットは各トライアルでランダム化され、妨害者によってさまざまな程度で遮蔽された。図11に示すように、ターゲットオブジェクトは最初に300msの間単独で表示され、その後、40個の妨害者が1秒間ランダムに導入された。すべてのオブジェクトが表示された後、3Dテキストメッセージ「開始」が画面の中央に表示された。ユーザーは500ms後に与えられたターゲットを選択できた。視線サポート選択の場合、ユーザーはゲームパッドの方向キーを使用して、ターゲットオブジェクトがより見える場所に移動できた。次に、ターゲットは視線で選択された。3Dミラー選択の場合、視線ベースのレイキャスティングを使用して、ターゲットオブジェクトを含む可能性のある選択可能なオブジェクトのセットを決定した。ユーザーは、3Dミラーに表示されている間にこれらのオブジェクトを選択できた。ターゲットオブジェクトがそれらに含まれていない場合、ユーザーはゲームパッドのキャンセルボタンを押して選択プロセスをキャンセルできた。次に、選択可能なオブジェクトの新しいセットを再度決定できた。\n図11：各トライアルの手順の図。（a）ターゲットオブジェクトは300msの間赤色でレンダリングされた。（b）40個の妨害者は1秒間黄色でレンダリングされた。（c）3Dテキスト「開始」を500ms間レンダリングした後、参加者はターゲットオブジェクトの選択を開始した。\nすべてのトライアルの開始時間と終了時間は自動的に記録された。ユーザーに滞留時間を知らせるために、オブジェクトの明るさは、視線ベクトルと球オブジェクトが交差した時間に比例して増加した。最初の参加者が同じ実験条件で各選択方法を適用して特定のターゲットオブジェクトを選択した場合の結果を図12に示す。\nすべてのテストが完了した後、各参加者はシステムユーザビリティスケール（SUS）[29]を使用してテスト後のアンケートに回答するよう求められた。\n図12：さまざまな条件下で各ターゲットを選択する2つの方法の比較。（a）、（c）、（e）、お���び（g）は視線サポート選択を表し、（b）、（d）、（f）、および（h）は3Dミラー選択を表す。\n4) デザイン\n実験は、独立変数選択方法（SM）（つまり、「視線サポート」）を使用した反復測定要因分散分析（ANOVA）として設計された。\n第8巻、2020年 200267\nJ.-J. Lee、J.-M. Park：仮想環境における遮蔽されたオブジェクトの3Dミラーオブジェクト選択\nまたは「3Dミラー」）；可視性条件（VC）（つまり、「完全に遮蔽」、「高度に遮蔽」、または「部分的に遮蔽」）；空間密度（SD）（つまり、「疎」または「密」）；ターゲットサイズ（TS）（つまり、「小」または「大」）。従属変数には、各タスクで発生した選択時間とエラー数が含まれていた。どちらの方法でも、3つのトライアルブロックが実行され、1つのプラクティスブロックと2つのテストブロックが含まれていた。各ブロック内では、SM、VC、SD、およびTSの24の組み合わせが3回繰り返され、合計72回のトライアルが行われた。実験の前に、これらのトライアルに対して24の組み合わせがランダムに生成され、すべての参加者に対して同じままだった。21人の参加者全体で2つの選択方法の順序は完全にカウンターバランスされた。全体的な実験は、実験の紹介、選択方法、すべてのトライアル、休憩、およびアンケートを含め、参加者1人あたり約30分続いた。\n5) 結果\na: 選択時間\n選択時間とは、参加者が特定の方法を使用して特定の条件下でトライアルを完了するのにかかった時間を指す。反復測定ANOVAおよび事後ボンフェローニ補正によるペアワイズ比較を実施した。反復測定ANOVAにより、TSを除く、SM（F 1;20D765:29、p<0:001）、VC（F 1:317;26:33D24:35、p<0:001）、およびSD（F 1;20D20:68、p<0:001）の主な効果が明らかになった（F1;20D0:257、pD0:618）。平均選択時間は、視線サポート選択で18.54秒（標準偏差D0:267）、3Dミラー選択で7.99秒（標準偏差D0:318）だった。事後ペアワイズ比較により、3Dミラー選択が視線サポート選択よりも有意に速かったことが明らかになった（p<0:001）。疎な空間密度の場合（平均D13:49、標準偏差D0:241）は、密な空間密度の場合（平均D13:04、標準偏差D0:217、p<0:001）よりもターゲットの選択に有意に時間がかかった。さらに、ボンフェローニ補正による事後ペアワイズ比較により、高オクルージョンの場合（平均D14:14、標準偏差D0:247）は、完全オクルージョンの場合（平均D13:38、標準偏差D0:225、pD0:006）または部分オクルージョンの場合（平均D12:29、標準偏差D0:331、p<0:001）よりも有意に時間がかかったことが明らかになった。\nまた、SMがVC（F 1:615;32:29D36:19、p<0:001,\u00112D0:644）およびTS（F1;20D273:29、p<0:001,\u00112D0:866）に有意な相互作用効果があり、この独立変数が2つの方法に異なる影響を与えることが明らかになった。SMとSDの間に有意な相互作用効果はなかった（F 1;20D2:14、pD0:159）。\nSMとVCの間の相互作用を図13に詳しく示しており、可視性条件がどちらの選択方法を使用するかによって選択時間に異なる影響を与えることを示している。ターゲットオブジェクトが完全に遮蔽されている環境でも、3Dミラー選択が視線サポート選択よりもはるかに速いことがわかる。特に、3Dミラー選択の3つの可視性条件での選択時間はほぼ同等だった。対",
+    "timestamp": "2025-02-22T19:37:59.783Z",
     "type": "bot"
   },
   {
@@ -428,6 +470,90 @@
     "original": "",
     "translation": "2020年9月26日受付、2020年10月25日受理、2020年11月3日発行。\n現在のバージョンは2020年11月13日。\nDigital Object Identifier 10.1 109/ACCESS.2020.3035376\n仮想環境における遮蔽された物体のための3Dミラーオブジェクト選択\nJOONG-JAE LEE\n1および JUNG-MIN PARK\n2、（IEEE会員）\n1共存のための人間中心インタラクションセンター、ソウル136-791、韓国\n2知能インタラクティブロボティクスセンター、ロボティクス・メディア研究所、韓国科学技術研究院、ソウル136-791、韓国\n責任著者：Jung-Min Park (pjm@kist.re.kr)\n本研究は、韓国政府（MSIP）の資金提供による韓国研究財団の助成金による、共存のための人間中心インタラクションに関するグローバルフロンティア研究開発プログラム（助成金番号2011-0031425）の一部、およびプロジェクト2E30280に基づく韓国科学技術研究院（KIST）機関プログラムの一部によって支援された。\n概要：3D仮想現実（VR）空間における仮想オブジェクトの操作に対する要求が高まっており、それはユーザーが目的のオブジェクトを選択することから始まる。既存の選択方法は、ユーザーの疲労を最小限に抑える直感的で自然な体験を提供することを目的としている。典型的なレイキャスティング法は、仮想空間内のオブジェクトが疎にまたは均等に配置されている場合に効果的であるが、これらのオブジェクトがより小さかったり、遠く離れていたり、特にそれらが重なり合っている場合には、選択が困難になる。本研究では、効果的な選択プロセスを通じて、これらの課題に対処する方法を提案する。3Dミラーリングに基づいて、提案する方法は、遮蔽された仮想オブジェクトをより効率的に選択できる新しいインタラクションメタファーを提供する。21人の被験者による体系的な実験を行い、オブジェクトのサイズ、空間密度、および遮蔽の程度によって決定されるさまざまなレベルのターゲット可視性を使用する。その結果、遮蔽された3D環境において、提案する3Dミラー選択プロセスは、従来の視線支援選択プロセスよりも優れており、より高いユーザー満足度を提供することが示された。\n索引語：3Dミラー、オクルージョン、3Dオブジェクト選択、視線ベースのレイキャスティング、ナビゲーション、仮想現実。\nI. 導入\n多様なユーザーインターフェースデバイスの最近の進歩とコスト削減により、一般の人々が仮想現実（VR）を体験する機会が増えている。単純な視覚化を超えて、3D VRアプリケーションは、ユーザーが仮想空間でインタラクトすることを可能にする[1]。この新たな傾向に伴い、従来の2Dベースのデスクトップインタラクションによって提供されるものよりも自由度の高い3Dユーザーインタラクションに対する需要が高まっている[2]。VRでは、3Dインタラクションは、ユーザーが現実世界にいるかのような錯覚を生み出し、現実のオブジェクトを扱っているかのように3D仮想オブジェクトを操作することを可能にする。特に、仮想オブジェクトの操作は、没入感を高めるために重要である。ただし、3Dユーザーインターフェース（UI）は、2Dの対応するものよりも実装が大幅に難しい。たとえば、3D選択技術は、迅速な選択サポート、高精度、理解の容易さ、制御、最小限のユーザー疲労、および遮蔽された環境での選択可能性など、多くのユーザビリティ要件を同時に満たす必要がある[3]。\nオブジェクト選択インタラクションは、3D空間での操作インタラクションを実行するための最も基本的なタスクである[4]。通常、レイキャスティングは、レイの交差を介してオブジェクトをすばやく選択するために使用される[5]。ただし、複数のオブジェクトがレイと交差し、障害物を作成する場合、この方法は最も近いオブジェクトの選択のみを可能にする。この問題を解決するために、半透明[6]または仮想X線[7]効果を介して、遮蔽されたオブジェクトを見えるようにするなど、さまざまな方法が提案されている。さらに、選択可能性を高めるために、シーンに複数のビューを提供することができる。ナビゲーションを介して可視性を実現するために、仮想環境[6]、[8]を再配置することも効果的に適用できる[9]。そのような多様な方法にもかかわらず、ターゲットオブジェクトが完全に遮蔽されている場合に、簡単かつ正確なオブジェクト選択を可能にする技術はほとんどない。研究者は、ソリューションとして、即時選択方法よりも正確な漸進的選択技術[10]を提案している。ただし、そのような技術では、遮蔽されたターゲットオブジェクトを選択するために複数のステップが必要である。ユーザビリティの観点から、選択コンテキストから操作コンテキストへの変換は本質的に離散的である。\n第8巻、2020年。本研究は、クリエイティブ・コモンズ表示4.0ライセンスの下でライセンスされている。詳細については、https://creativecommons.org/licenses/by/4.0/200259を参照のこと\nJ.-J. Lee、J.-M. Park：仮想環境における遮蔽されたオブジェクトの3Dミラーオブジェクト選択\n図1：遮蔽された環境における3Dミラーオブジェクト選択。\n本研究では、直接見ることができないシーンやオブジェクトを間接的に表示するためにミラーを使用する新しいインタラクションメタファーを提案する。提案する3Dミラーオブジェクト選択方法は、複数の仮想オブジェクトが奥行き方向に遮蔽されている場合にターゲットオブジェクトを選択できないという問題を解決する。仮想ミラーを使用すると、ユーザーは遮蔽されたオブジェクトの遠近法と形状を区別でき、ミラーに表示されているオブジェクトの中からターゲットを簡単に選択できる。\n本研究の主な貢献は次のとおりである。\n\u000f他のオブジェクトによって遮蔽されたターゲットオブジェクトを簡単に選択できる3Dミラーに基づく新しいタイプのインタラクションメタファーを紹介する（図1を参照）。\n\u000f仮想オブジェクトが重なり合う状況で、提案する方法によりターゲットオブジェクトを簡単に選択できることを示すユーザー実験を実施する。\nII. 関連研究\nA. 3Dベースのオブジェクト選択技術\n3Dオブジェクト選択方法は、主に仮想ハンドベースの技術とポインティングベースの技術に分類される。前者の場合、ハンドアバターが表示され、仮想オブジェクトと接触して選択することができる。後者の技術は、視線追跡またはハンドヘルドデバイスを使用して、レイの機能を利用して目的のオブジェクトを選択する。Poupyrevらは、仮想ハンドを使用して、ユーザーが到達できない領域に腕を伸ばしてターゲットオブジェクトを選択できるようにするGo-Go技術を提案した[11]。仮想空間でレイキャスティングによってユーザーがオブジェクトをつかむことを可能にするHOMERと呼ばれる技術が開発された。また、選択されたオブジェクトを操作するために、��の延長に基づいたハンドアバターを適用した[5]。ユーザーの2つの手によって形成される角度を使用してレイの方向を調整する2本指ポインティング技術が開発され、ターゲットオブジェクトを選択した[10]。視線ベースの方法も多数作成され、空中ジェスチャーコントロールと統合されている[12]、[13]。Argelaguetらは、3Dオブジェクト選択技術を詳細かつ体系的に調査し、3D選択パフォーマンスに影響を与える主要な要因を特定した[3]。\nオブジェクト選択技術に関しては、一般的に仮想ポインティング法の方が仮想ハンド法よりも優れたパフォーマンスを発揮する。ただし、仮想ポインティング法では、ターゲットオブジェクトが小さかったり、遠く離れていたり、移動中の場合に、レイを正確に制御することが難しい。したがって、選択パフォーマンスが低下し、選択に必要な時間が増加する。\nB. 遮蔽されたオブジェクト選択技術\nオクルージョン処理は、3Dオブジェクト選択方法の設計において最も困難な問題の1つである。Elmqvistらは、視点vからオブジェクトoが遮蔽されているとは、oから現在の視点vへの線分が遮断されていない場合に定義した[14]。通常、オクルージョンは密集した散乱環境で発生する。これは、ターゲットオブジェクトの選択に必要な時間が増加する主な原因である。ElmqvistとTsigasは、オクルージョン管理方法を5つの設計パターンに分類し、それらの特性を要約した。まず、複数のビューポートパターンを使用して、単一の3D環境の2つ以上の別個のビューを提供した。たとえば、world-in-miniature技術は、3Dシーンの鳥瞰図を提供し、ユーザーがシーン全体の構造を簡単に識別できるようにする[15]。次に、透明度とマルチブレンディング技術を適用する仮想X線パターンを使用すると、ユーザーはオブジェクトを通して見ることができる。この機能は、オクルージョンを削除するか、半透明にして、ターゲットオブジェクトの可視性を向上させる。BurnsとFinkelsteinは、遮蔽されたオブジェクトを視覚化するためにカットアウェイレンダリングを使用する方法を提案した[7]。この方法の強みは、遮蔽されたターゲットオブジェクトの目的の内部を見ることができることである。弱点は、重要な周囲のコンテキスト情報が失われる可能性があることである。3番目に、ツアープランナーパターンを使用すると、すべてのターゲットオブジェクトをオクルージョンなしで見ることができるカメラアニメーションパスを識別するために、オフライン/オンライン計算を実行できる。その強みは、環境自体を変更しないことである。ただし、環境の変化が動的な場合、多くのパス計算リソースが必要になる。Style-Camシステムは、ユーザーのインタラクティブな視覚体験を作成し、カメラのパスを空間的および時間的に制御し、計画されたパスに基づいて自動ツアーを作成する[16]。McGuffinらは、ボリュームのあるオブジェクトを切断、開放、および広げることができる変形ベースのボリューム爆発技術を提案し、ユーザーがボリュームデータを閲覧できるようにした[17]。4番目に、ボリュームプローブパターンは、オブジェクトを分離してオクルージョン問題を解決することにより、ユーザーのインタラクションを利用する。ターゲットオブジェクトの選択を可能にするために、ユーザーのコマンドに応じてバルーンを膨らませることにより、オクルーダーをオクルディーから分離するために、空間歪曲インタラクション方法（つまり、BalloonProbe）が作成された。Cashionらは、動的で高オブジェクト密度の環境で拡張法を使用して選択精度を向上させる方法を提案した[18]。5番目に、プロジェクトディストーターパターンを使用して、オブジェクトの可視性を最大化するために、同じ3Dシーンの2つ以上の統合ビューを提供した。ビュー投影アニメーションは、この方法の典型的な例であり、オブジェクトサイズを歪みなしに保持する並列投影とともに、3D環境のリアルなビューを提示する視点を投影する。これにより、遮蔽されたオブジェクトの可視性が向上する[14]。したがって、並列投影を使用してターゲットオブジェクトを簡単に見つけることができる。ただし、投影モードを頻繁に切り替える必要があるため、リアルタイムの3Dインタラクションを実行するには適切ではない。Sidenmarkらは、視線支援による遮蔽されたオブジェクトの選択のためのコーンキャスティングアウトラインとモーション生成の概念を統合したOnline Pursuitsを紹介した[34]。コントローラーベースおよび視線ベースのレイキャスティングを含むさまざまな技術を使用して、異なるオブジェクト密度とオクルージョンレベルでのツールのパフォーマンスを比較した。ただし、オブジェクト密度とオクルージョンレベルは、それぞれ50％以上と50％未満の2つのカテゴリに大まかに分割された。\nC. 視線サポートオブジェクト選択技術\n前述のように、仮想ポインティング技術は、視線追跡またはハンドヘルドデバイスを使用して、レイキャスティングを介して仮想オブジェクトを選択する。TanriverdiとJacobは、視線ベースのポインティングが腕の延長法よりも速いことを発見した[19]。対照的に、Courniaらは、視線ベースのポインティングがハンドベースのポインティングよりも遅いと報告した[20]。そのような矛盾の存在は、オブジェクト選択タスクのみ、または選択後の操作のみが考慮されるかどうかによって異なる。\nVellosoらは、アイトラッキング技術の進歩により、オブジェクト選択結果の精度と堅牢性が向上したため、選択のために複数のターゲットオブジェクトを頻繁に変更する必要がある場合、視線ベースのオブジェクト選択がより効率的に実行されることを実証した[21]。これらの利点のため、オブジェクト選択のための視線追跡とオブジェクト操作のための空中ハンドジェスチャーを組み合わせる試みが数多く行われている[22]。Chatterjeeらは、アイトラッキングとフリースパージェスチャーを使用して、インタラクティブシステムを制御した[23]。Pfeufferらは、3D仮想空間でターゲットオブジェクトを選択するために視線を使用する方法を実装した。フリーハンドジェスチャーベースの技術を使用して、それらを操作した。この方法は、さまざまなアプリケーション（たとえば、3D操作、シーンナビゲーション、および画像ズーミング）に実装された[24]。Mohanらは、ユーザーがオブジェクト選択のために特徴的な2段階の視線ジェスチャーを実行し、意図しない確認を減らすDualGazeインタラクション方法を提示した[36]。DualGazeの平均選択時間は、固定視線よりも大幅に速かった。ただし、この速度の優位性は、タスクの総完了時間を測定した後には明らかではなかった。近年、レイキャスティング技術に���けるオブジェクト選択エラーは、最も近いターゲットの選択を可能にするレイフィルタリング用のカーソルを追加することにより削減されている[25]。GrossmanとBalakrishnanは、ターゲット選択のためのエリアバブルカーソルを提案した。ただし、目的のオブジェクトが小さくて密度が高い場合に、複数のオブジェクトが同時に選択されるという問題があった[32]。Choiらは、アイトラッキングインターフェースとバブルカーソルを組み合わせることにより、バブル視線カーソルを開発した。重複するものを除いて、小さなオブジェクトの選択を検討した[33]。Ryuらは、視線追跡を使用して選択の候補オブジェクトを概算的に決定する方法を紹介した[26]。次に、候補オブジェクトの厚さとユーザーの手のポーズを一致させてターゲットを選択した。この方法は、現実世界でオブジェクトがどのように把握されるかと似ており、ターゲットオブジェクトのサイズを認識できる限り、ターゲットオブジェクトが遮蔽されている環境でも選択を可能にする。さらに、選択されたオブジェクトは、モードを個別に変換することなくすぐに操作できる。Schweigertらは、MAGICポインティング技術と参照空中ポインティングジェスチャー技術を組み合わせて遠くのオブジェクトを選択するEyePointing視線ベースの選択技術を提案した[35]。EyePointingでは、視線を使用してオブジェクトを参照し、ポインティングジェスチャーをトリガーとして使用した。\nIII. 3Dミラーオブジェクト選択\n3D仮想環境でターゲットオブジェクトの選択の難易度を決定する2つの主要な要因は、オブジェクト密度とオブジェクトオクルージョンである。オブジェクト密度が高い場合（つまり、環境が密集している場合）、ターゲットオブジェクトを選択する精度は高くなければならない。図2（a）に示すように、ターゲットオブジェクトオクルージョンの高度な程度は、オブジェクト選択精度が高い場合でも、正確な選択を妨げる可能性がある。そのような場合、ユーザーはターゲットオブジェクトが適切に見える別の場所に移動するか、図2（b）に示すように、オブジェクトを選択するために頭の位置または視点を変更する必要がある。明らかに、これらのアクティビティにはユーザーからの大きな運動運動が必要であり、しばしば疲労を引き起こす。\n本研究で提案する方法は、日常生活で広く使用されているオブジェクトであるミラーの機能を使用して、ユーザーが遮蔽されたターゲットオブジェクトを簡単に選択できるようにする。この技術は、ミラーが直接視線から隠された領域を表示できるという事実を利用する。図2（c）に示すように、ターゲットオブジェクトが後部位置にあるシリンダーであると仮定すると、前面のオブジェクトがターゲットを完全に遮蔽している場合でも、ミラーを使用してオブジェクトを見ることができる。したがって、ユーザーはターゲットを簡単に区別できる。\n提案する方法には、図3に示すように、4つのステップが含まれる。最初のステップでは、視線ベースのインタラクションを使用して、選択可能なオブジェクト（たとえば、ユーザーの視線からのレイと交差する2つ以上の仮想オブジェクト）を検出する。2番目のステップでは、選択可能なオブジェクトのミラーイメージがミラー平面に表示される。3番目のステップでは、ミラーイメージを介した視線ベースのポインティングを使用してターゲットオブジェクトを選択する。最後のステップでは、ミラー平面がオフになる。これはターゲットオブジェクトが選択されると自動的に完了し、選択キャンセルはユーザー入力によって指定できる。\nアルゴリズム1は、3Dミラー選択プロセスの擬似コードを示しており、各ステップの詳細な説明を提供している。A. 選択可能なオブジェクトの検出（抽出）\n他のオブジェクトによって引き起こされるオクルージョンが可視性を大幅に低下させるため、混雑した環境でターゲットオブジェクトを正確に選択することは難しい。図4は、ターゲットオブジェクトのオクルージョンレベルによって決定される可視性の違いを示している。場合によっては、ターゲットオブジェクト（つまり、オクルディー）が部分的にしか遮蔽されていない。逆に、場合によっては、ターゲットオブジェクト全体が遮蔽されているため、可視性がゼロになることさえある。\nそのような遮蔽された環境では、オブジェクト選択の候補を決定するための最初のステップとして、視線ベースのレイキャスティングが使用される。ターゲットオブジェクトがより見える場合、同じ一般的なレイキャスティングを介して簡単に選択できる。ただし、部分的または完全に遮蔽されたターゲットオブジェクトを選択するには、より多くの焦点が必要になる。視線ベースのポインティングを使用して選択するのに苦労する代わりに、オブジェクト選択の前に3Dミラーリングを使用してオブジェクトの可視性を高めることを選択する。\nターゲットオブジェクトを選択するには、まず選択可能なオブジェクトを識別する必要がある。これを実現するには、オクルーダーを貫通してオブジェクトを表示する。つまり、視線ベクトルEgと交差するオブジェクトは、選択可能なオブジェクトのSOグループとして抽出される。\nSODfo ijEg\\oi6D;; iD1;:::; ng; (1)\nここで、\\は幾何学的交差点を示します。\nB. ミラーイメージの生成とミラー平面への表示\n遮蔽されたターゲットオブジェクトを含む選択可能なオブジェクトの可視性を向上させるために、ミラーイメージを生成するには、オクルージョンがない仮想カメラの位置を推定する必要がある。視線とミラー平面の間に他のオブジェクトがある場合は、ミラーイメージを生成する前に削除する必要がある。この画像をユーザーの視線に従って表示するには、ミラー平面の位置を適応的に調整する必要がある。\n最初のステップでは、ミラーイメージを生成する仮想カメラの位置を決定する。元の視点からは、選択可能なオブジェクトは遮蔽されている。ただし、図5（a）に示すように、仮想カメラを配置してミラーと同じ方向にレンダリングすると、結果のイメージの可視性が大幅に向上する。ミラー平面と視線ベクトルEgの間の角度が\u000e度の場合、選択可能なオブジェクト全体をレンダリングできる仮想カメラの位置PCD(Pcx;Pcy;Pcz)は、次のように計算される。\nPcDP3CH\u0002En\nkEnk(2)\nここで、Enは点P3を通過する\u0000\u0000!P3P2の法線ベクトルを参照する。\n式（2）では、未知数P3、En、およびHの解は、次のように計算できる。まず、P3は、o1の中心点（つまり、選択可能なオブジェクトに最も近いオブジェクト）とo3の中心点（つまり、選択可能なオブジェクトから最も遠いオブジェクト）を接続する線の中心点を計算することで簡単に取得できる。次に、Enは、Y軸に沿って\u000eの値で視線ベクトルEgを回転させる法線ベクトル、Eg\u000eを計算することにより取得される。\n200262 第8巻、2020年\nJ.-J. Lee、J.-M. Park：仮想環境における遮蔽されたオブジェクトの3Dミラーオブジェクト選択\n図5：選択可能なオブジェクトのミラーイメージ生成。（a）ミラー平面が視線ベクトルEgと\u000e度の角度にある場合、これは選択可能なオブジェクトのミラーイメージを生成するための仮想カメラの位置である。\nまず、点P3は、選択可能なオブジェクトに最も近いオブジェクトであるo1の中心点と、選択可能なオブジェクトから最も遠いオブジェクトであるo3の中心点を接続する線の中心点である。HandP3から点Pcへの方向ベクトルを計算すると、式（2）を使用して仮想カメラの位置を計算できる。（b）最も外側の点（たとえば、PLB）を決定するには、仮想カメラのFOVに選択可能なオブジェクトが含まれる位置の計算が必要である。\n式（2）では、仮想カメラのFOVにすべての選択可能なオブジェクトが含まれている必要がある。これは、カメラのFOVの境界を満たす選択可能なオブジェクトの最も外側の点を決定することで実現できる。図5（b）に例を示す。オブジェクトo3の最小境界ボックス（MBB）を計算した後、ミラー平面に垂直な方向に、s軸方向の最も外側の点はs1ands2である。ここで、t軸方向のカメラに近い点t1が、最終的な最も外側の点PLBになる。最も遠いオブジェクトのMBBの左上の点と最も近いオブジェクトのMBBの右上の点の間で、仮想カメラに最も近い点が最も外側の点である。仮想カメラの位置が決定されると、レンダリングが実行され、ミラーイメージが生成され、3Dミラー平面に表示される。これにより、ユーザーは可視性が大幅に向上したオブジェクトを表示できる。\nすべての選択可能なオブジェクトが仮想カメラのFOVに含まれない可能性がある。念のため、仮想カメラの位置を後方に移動すると、選択可能なオブジェクトを最大限に含めることができる。ただし、それらのサイズは小さくなる。表示されない選択可能なオブジェクトの場合、ユーザーは図6（a）に示すように3Dミラーを調整できる。\nミラーの位置を移動する代わりに、図6（b）〜（d）に示すように、Z軸に沿って選択可能なオブジェクト間を移動するために、3Dミラーにカーソルを提供する。赤と青の矢印は、それぞれ後方と前方方向を示す。実験では、上記の方法で選択可能なオブジェクトを移動するために、ゲームパッドの左右のショルダートリガーボタンを使用できた。\n図6：Z軸に沿って選択可能なオブジェクトを前後に移動する。図は、選択可能なオブジェクトの数が多すぎる場合、または選択可能なオブジェクト間の距離がミラー内のすべてのオブジェクトを表示するには遠すぎる場合に、選択可能なオブジェクト間を前後に移動する方法を示している。（i）選択可能なオブジェクトが多い場合と、（ii）選択可能なオブジェクト間の距離が遠すぎる場合。（a）これらの選択可能なオブジェクトは、3Dミラーの位置を近づけたり、押し出したりすることで観察できる。（b）最も近い選択可能なオブジェクトが3Dミラーを通して表示されるシーン。（c）中間距離にある選択可能なオブジェクトが3Dミラーを通して表示されるシーン。（d）最も遠い選択可能なオブジェクトが3Dミラーを通して表示されるシーン。3Dミラー平面の左上と右上の矢印は、対応する方向に移動できることを示している。赤い矢印はユーザーが遠ざかることができることを示し、青い矢印はユーザーが近づくことができることを示している。\n2番目のステップでは、オブジェクトが切り取られた。コンピューターグラフィックスの分野で3Dシーンをリアルタイムで表示するために不要なレンダリングを削減する方法である可視性カリングを使用して、オブジェクトを削除できる。具体的には、可視性カリングは、非表示サーフェスの削除を実行する前に非表示オブジェクトを除外する技術であるため、3Dシーン内のすべてのオブジェクトを再現する必要はない。典型的なカリング方法には、視錐台カリング、背面カリング、およびオクルージョンカリングが含まれる[27]。視錐台（カメラのFOV）カリング方法は、表示錐台の外側のジオメトリを除外する。比較すると、背面カリングは、レンダリング中にビューアーに面するジオメトリのみを残し、反対側（ビューアーの後ろ）のジオメトリを除外する。オクルージョンカリングは、遮蔽されたオブジェクトのレンダリングを無効にする方法である。\n視錐台カリングと同様に、視線ベクトルEgとミラー平面の間のカリング空間（CS）内のオブジェクト、またはオブジェクトのMBBがカリング空間の境界を満たすオブジェクトは、式（4）で切り取られたオブジェクト（CO）として決定される。\nCODfo ij(oi\\CS6D;)[(oi\u0012CS); iD1;:::; ng; (4)\nここで、\\は幾何学的交差を表し、\u0012は幾何学的サブセット関係を表す。\nたとえば、図7では、オブジェクトo5、o8、およびo9は、選択可能なオブジェクトのオクルージョンを作成するオクルーダーである。それらを「切り取られたオブジェクト」（CO）と呼び、ミラーイメージを生成するためにレンダリング中に除外する。最後のステップでは、ミラー平面の位置はユーザーの視線に応じて適応的に調整される。オブジェクトが視線のみで選択されると仮定すると（ユーザーの頭のポーズを反射せずに）、視線ベクトルのピッチ（\u0012）とヨー（'）（ただし、ロールではない）の回転は、次のように考慮する必要がある。\n\u0000!g'\u0012DRz;y;x(0;';\u0012 )EgDRz(0)R y(')Rx(\u0012)EgDRy(')Rx(\u0012)Eg:\n(5)\n図8（a）に示すように、オブジェクトを選択するために視線がX軸に沿って移動された場合、ミラー平面のピッチ角\u00121and\u00122が回転する。同様に、視線がY軸に沿って移動された場合、ミラー平面のヨー角'1and'2はその量だけ回転する。\nC. 3Dミラーでのターゲットオブジェクト選択\n図9（a）に示すように、選択可能なオブジェクトがミラー平面に表示される場合、元の視点V1から見ることができないオブジェクトは、ミラー平面に面する視点V2から見えるようになる。3Dミラーオブジェクト選択技術を使用すると、ミラーを介して遮蔽されたターゲットオブジェクトの間接的な選択が可能になる。図9に示すように、ターゲットオブジェクトは視線ベースのポインティングを使用してミラーイメージから選択される。ここで、ミラーイメージからターゲットオブジェクトを選択するには、視線ベクトルとオブジェクトの間で交差テストを実行する。本研究では、ミラーイメージの深度バッファーを使用してこれを実現した。図9（b）で見ることができるように、オブジェクトは異なる深度データを持っているため、各オブジェクトが視線ベクトルと交差するかどうかを簡単に判断できる。\n図9：ターゲットオブジェクトは、ミラー平面に表示されるミラーイメージから選択される。（a）元の視点V1から見えなかった選択可能なオブジェクトは、視点V2から見えるようになるため、ターゲットオブジェクトを簡単に選択できる。（b）ミラーイメージからターゲットオブジェクトを選択するには、選択可能なオブジェクトの深度テクスチャを使用して、視線ベクトルと交差するかどうかをテストする。\nD. オブジェクト選択の確認とキャンセル\n視線を使用してターゲットオブジェクトを選択するときに発生する可能性のあるよく知られた問題は、ミダスタッチの問題[28]である。この問題は、選択可能なオブジェクトが決定され、ターゲットオブジェクトがミラー平面から選択される場合に、提案する方法でも発生する可能性がある。この問題を解決するために、図3（d）に示すように、滞留時間を使用してターゲットオブジェクトが選択されるかどうかを決定する。ユーザーの視線がターゲットオブジェクトに一定時間留まると、選択が自動的に確認され、ミラー平面が消える。ターゲットオブジェクトが選択可能なオブジェクトの中にない場合、またはユーザーが別の場所で別のオブジェクトを選択したい場合は、現在の選択モードをキャンセルできる。ユーザーは、図3（f）に示すように、3Dミラー平面を使用して選択プロセスを明示的に取り下げることができる。IV。実験結果\n提案する3Dミラーオブジェクト選択方法のパフォーマンスを評価するために、仮想環境で遮蔽されたオブジェクトのターゲットオブジェクトに対して、さまざまなターゲットサイズ、空間密度、および可視性レベルを設定した。ユーザーの好みも調査した。実験では、視線ベースのレイキャスティングをベースライン比較技術として使用し、ゲームパッドを介して制御されるナビゲーション機能は、ユーザーの視点からターゲットオブジェクトが見えない状況のために提供された。選択方法を評価するために、同種オブジェクト選択と異種オブジェクト選択の2つの異なるシナリオが実施された。\nA. 装置\n実験環境を図10に示す。視線で仮想オブジェクトを選択するためである。仮想環境は、フルHD（1,920\u00021:080）解像度の55インチフラット3Dディスプレイに表示された。ディスプレイとユーザー間の距離は約70cmだった。PCは、32GBのメモリとNVidia GTX780を搭載したi7-4790 Intel CPUを備えており、Windows8.1で実行されていた。Microsoft Visual Studio CCCを使用して、CCCでミラーオブジェクト選択のアプリケーションを開発した。視線追跡には、Development Kit2を備えたTobii Rexアイトラッカーを使用した。\n図10：3Dオブジェクト選択の実験設定。\nB. スタディ1：同種オブジェクト選択\n選択方法と、可視性条件、空間密度、ターゲットサイズなど、3D環境機能の影響を評価する実験を行った。この実験では、同種オブジェクトの追加のフィルタリングなしに、視線追跡を使用してターゲットオブジェクトを選択した。\n1) 独立変数\n独立変数には、選択方法、可視性条件、空間密度、ターゲットサイズが含まれていた。選択タスクを開始するときの可視性条件は、ユーザーに見えて妨害者によって遮られていないターゲットの量が定義されていた：0％（完全に遮蔽）、10％以下（高度に遮蔽）、および40〜50％（部分的に遮蔽）。\n密度は、オブジェクト内の物質の量に関連して、オブジェクトが占有する空間の量を表す。同様に、空間密度は、インタラクションスペースに含まれる球形オブジェクトの数で定義した。2つのインタラクションスペースをテストした：100\u000260\u0002100cm（疎なオクルージョンの場合）と75\u000250\u000275cm（密なオクルージョンの場合）。妨害者とターゲットオブジェクトの半径は同じであり、2cm（小）と3cm（大）の2種類のオブジェクトを使用した。\n2) 参加者\n平均年齢が28.6歳（標準偏差D7.1）の22〜54歳の無給参加者21名（男性14名）を募集した。タスクを開始する前に、参加者にいくつかのバイナリ質問または5点リッカート質問（つまり、1Strongly disagreeから5Strongly agree）に回答するよう求めた。参加者は、仮想環境でのインタラクション（たとえば、ゲーム）についていくつかの経験を報告した。4名を除き、ほとんどの参加者は視線追跡に精通していなかった（平均標準偏差D1.80.9）。参加者の半数は、オブジェクト選択についていくつかの経験があると報告した。\n3) 手順\n実験のタスクには、仮想環境での静的ターゲット選択が含まれていた。遮蔽された環境での選択タスクを評価するために、[30]および[31]と同様の実験プロトコルに従った。各トライアルでは、40個の妨害者（黄色の球）とターゲットオブジェクト（赤い球）を使用した。ターゲットは各トライアルでランダム化され、妨害者によってさまざまな程度で遮蔽された。図11に示すように、ターゲットオブジェクトは最初に300msの間単独で表示され、その後、40個の妨害者が1秒間ランダムに導入された。すべてのオブジェクトが表示された後、3Dテキストメッセージ「開始」が画面の中央に表示された。ユーザーは500ms後に与えられたターゲットを選択できた。視線サポート選択の場合、ユーザーはゲームパッドの方向キーを使用して、ターゲットオブジェクトがより見える場所に移動できた。次に、ターゲットは視線で選択された。3Dミラー選択の場合、視線ベースのレイキャスティングを使用して、ターゲットオブジェクトを含む可能性のある選択可能なオブジェクトのセットを決定した。ユーザーは、3Dミラーに表示されている間にこれらのオブジェクトを選択できた。ターゲットオブジェクトがそれらに含まれていない場合、ユーザーはゲームパッドのキャンセルボタンを押して選択プロセスをキャンセルできた。次に、選択可能なオブジェクトの新しいセットを再度決定できた。\n図11：各トライアルの手順の図。（a）ターゲットオブジェクトは300msの間赤色でレンダリングされた。（b）40個の妨害者は1秒間黄色でレンダリングされた。（c）3Dテキスト「開始」を500ms間レンダリングした後、参加者はターゲットオブジェクトの選択を開始した。\nすべてのトライアルの開始時間と終了時間は自動的に記録された。ユーザーに滞留時間を知らせるために、オブジェクトの明るさは、視線ベクトルと球オブジェクトが交差した時間に比例して増加した。最初の参加者が同じ実験条件で各選択方法を適用して特定のターゲットオブジェクトを選択した場合の結果を図12に示す。\nすべてのテストが完了した後、各参加者はシステムユーザビリティスケール（SUS）[29]を使用してテスト後のアンケートに回答するよう求められた。\n図12：さまざまな条件下で各ターゲットを選択する2つの方法の比較。（a）、（c）、（e）、お���び（g）は視線サポート選択を表し、（b）、（d）、（f）、および（h）は3Dミラー選択を表す。\n4) デザイン\n実験は、独立変数選択方法（SM）（つまり、「視線サポート」）を使用した反復測定要因分散分析（ANOVA）として設計された。\n第8巻、2020年 200267\nJ.-J. Lee、J.-M. Park：仮想環境における遮蔽されたオブジェクトの3Dミラーオブジェクト選択\nまたは「3Dミラー」）；可視性条件（VC）（つまり、「完全に遮蔽」、「高度に遮蔽」、または「部分的に遮蔽」）；空間密度（SD）（つまり、「疎」または「密」）；ターゲットサイズ（TS）（つまり、「小」または「大」）。従属変数には、各タスクで発生した選択時間とエラー数が含まれていた。どちらの方法でも、3つのトライアルブロックが実行され、1つのプラクティスブロックと2つのテストブロックが含まれていた。各ブロック内では、SM、VC、SD、およびTSの24の組み合わせが3回繰り返され、合計72回のトライアルが行われた。実験の前に、これらのトライアルに対して24の組み合わせがランダムに生成され、すべての参加者に対して同じままだった。21人の参加者全体で2つの選択方法の順序は完全にカウンターバランスされた。全体的な実験は、実験の紹介、選択方法、すべてのトライアル、休憩、およびアンケートを含め、参加者1人あたり約30分続いた。\n5) 結果\na: 選択時間\n選択時間とは、参加者が特定の方法を使用して特定の条件下でトライアルを完了するのにかかった時間を指す。反復測定ANOVAおよび事後ボンフェローニ補正によるペアワイズ比較を実施した。反復測定ANOVAにより、TSを除く、SM（F 1;20D765:29、p<0:001）、VC（F 1:317;26:33D24:35、p<0:001）、およびSD（F 1;20D20:68、p<0:001）の主な効果が明らかになった（F1;20D0:257、pD0:618）。平均選択時間は、視線サポート選択で18.54秒（標準偏差D0:267）、3Dミラー選択で7.99秒（標準偏差D0:318）だった。事後ペアワイズ比較により、3Dミラー選択が視線サポート選択よりも有意に速かったことが明らかになった（p<0:001）。疎な空間密度の場合（平均D13:49、標準偏差D0:241）は、密な空間密度の場合（平均D13:04、標準偏差D0:217、p<0:001）よりもターゲットの選択に有意に時間がかかった。さらに、ボンフェローニ補正による事後ペアワイズ比較により、高オクルージョンの場合（平均D14:14、標準偏差D0:247）は、完全オクルージョンの場合（平均D13:38、標準偏差D0:225、pD0:006）または部分オクルージョンの場合（平均D12:29、標準偏差D0:331、p<0:001）よりも有意に時間がかかったことが明らかになった。\nまた、SMがVC（F 1:615;32:29D36:19、p<0:001,\u00112D0:644）およびTS（F1;20D273:29、p<0:001,\u00112D0:866）に有意な相互作用効果があり、この独立変数が2つの方法に異なる影響を与えることが明らかになった。SMとSDの間に有意な相互作用効果はなかった（F 1;20D2:14、pD0:159）。\nSMとVCの間の相互作用を図13に詳しく示しており、可視性条件がどちらの選択方法を使用するかによって選択時間に異なる影響を与えることを示している。ターゲットオブジェクトが完全に遮蔽されている環境でも、3Dミラー選択が視線サポート選択よりもはるかに速いことがわかる。特に、3Dミラー選択の3つの可視性条件での選択時間はほぼ同等だった。対",
     "timestamp": "2025-02-22T19:37:59.783Z",
+    "type": "bot"
+  },
+  {
+    "conversationId": "1740296267184",
+    "original": "The area expanded using a linear lens increases as the lens width becomes larger, making it easier to select smaller targets.",
+    "translation": "",
+    "timestamp": "2025-02-23T07:37:50.783Z",
+    "type": "user"
+  },
+  {
+    "conversationId": "1740296267184",
+    "original": "",
+    "translation": "線形レンズを用いて拡大される領域は，レンズ幅が大きくなるにつれて増加する．これにより，より小さなターゲットを選択することが容易になる．",
+    "timestamp": "2025-02-23T07:37:52.151Z",
+    "type": "bot"
+  },
+  {
+    "conversationId": "1740296267184",
+    "original": "The area expanded using a linear lens increases as the lens width becomes larger, making it easier to select smaller targets.",
+    "translation": "",
+    "timestamp": "2025-02-23T07:37:56.094Z",
+    "type": "user"
+  },
+  {
+    "conversationId": "1740296267184",
+    "original": "",
+    "translation": "リニアレンズを用いて拡大される領域は，レンズ幅が広くなるにつれて拡大し，より小さなターゲットを選択しやすくなる．",
+    "timestamp": "2025-02-23T07:37:57.376Z",
+    "type": "bot"
+  },
+  {
+    "conversationId": "1740295845529",
+    "original": "The area expanded using a linear lens increases as the lens width becomes larger, making it easier to select smaller targets.",
+    "translation": "",
+    "timestamp": "2025-02-23T07:34:57.256Z",
+    "type": "user"
+  },
+  {
+    "conversationId": "1740295845529",
+    "original": "",
+    "translation": "線形レンズを用いて拡大された領域は，レンズの幅が広くなるにつれて大きくなり，より小さなターゲットを選択しやすくなる．",
+    "timestamp": "2025-02-23T07:34:58.599Z",
+    "type": "bot"
+  },
+  {
+    "conversationId": "1740296374697",
+    "original": "The area expanded using a linear lens increases as the lens width becomes larger, making it easier to select smaller targets.",
+    "translation": "",
+    "timestamp": "2025-02-23T07:39:38.118Z",
+    "type": "user"
+  },
+  {
+    "conversationId": "1740296374697",
+    "original": "",
+    "translation": "線形レンズを用いて拡大される領域は，レンズの幅が広くなるにつれて増大し，より小さなターゲットの選択を容易にする．",
+    "timestamp": "2025-02-23T07:39:39.613Z",
+    "type": "bot"
+  },
+  {
+    "conversationId": "1740296374697",
+    "original": "The area expanded using a linear lens increases as the lens width becomes larger, making it easier to select smaller targets.",
+    "translation": "",
+    "timestamp": "2025-02-23T07:39:43.698Z",
+    "type": "user"
+  },
+  {
+    "conversationId": "1740296374697",
+    "original": "",
+    "translation": "線形レンズを用いて拡大される領域は，レンズ幅が広くなるにつれて増加する．これにより，より小さなターゲットを選択することが容易になる．",
+    "timestamp": "2025-02-23T07:39:44.970Z",
+    "type": "bot"
+  },
+  {
+    "conversationId": "1740296374697",
+    "original": "The area expanded using a linear lens increases as the lens width becomes larger, making it easier to select smaller targets.",
+    "translation": "",
+    "timestamp": "2025-02-23T07:39:59.335Z",
+    "type": "user"
+  },
+  {
+    "conversationId": "1740296374697",
+    "original": "",
+    "translation": "リニアレンズを用いて拡大される領域は，レンズ幅が大きくなるにつれて増加する．そのため，より小さなターゲットを選択することが容易になる．",
+    "timestamp": "2025-02-23T07:40:01.366Z",
     "type": "bot"
   }
 ]

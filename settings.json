@@ -47,7 +47,23 @@
         "targetWord": "ハンドヘルド",
         "description": ""
       }
-    ]
+    ],
+    "1740295549965": {
+      "chatStyle": "formal",
+      "translationStyle": "natural",
+      "translationFormat": "parallel",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    },
+    "1740295615981": {
+      "chatStyle": "casual",
+      "translationStyle": "natural",
+      "translationFormat": "simple",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    }
   },
   "1740239488454": {
     "chatStyle": "casual",
@@ -56,7 +72,23 @@
     "targetLanguage": "ja",
     "textStyle": "dearu",
     "punctuationStyle": "ten",
-    "dictionary": []
+    "dictionary": [],
+    "1740295549965": {
+      "chatStyle": "formal",
+      "translationStyle": "natural",
+      "translationFormat": "parallel",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    },
+    "1740295615981": {
+      "chatStyle": "casual",
+      "translationStyle": "natural",
+      "translationFormat": "simple",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    }
   },
   "1740239702850": {
     "chatStyle": "formal",
@@ -65,7 +97,23 @@
     "targetLanguage": "ja",
     "textStyle": "dearu",
     "punctuationStyle": "comma",
-    "dictionary": []
+    "dictionary": [],
+    "1740295549965": {
+      "chatStyle": "formal",
+      "translationStyle": "natural",
+      "translationFormat": "parallel",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    },
+    "1740295615981": {
+      "chatStyle": "casual",
+      "translationStyle": "natural",
+      "translationFormat": "simple",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    }
   },
   "1740232078838": {
     "chatStyle": "casual",
@@ -92,7 +140,15 @@
     "targetLanguage": "ja",
     "textStyle": "dearu",
     "punctuationStyle": "ten",
-    "dictionary": []
+    "dictionary": [],
+    "1740295549965": {
+      "chatStyle": "formal",
+      "translationStyle": "natural",
+      "translationFormat": "parallel",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    }
   },
   "1740237518281": {
     "chatStyle": "casual",
@@ -185,7 +241,23 @@
         "targetWord": "ハンドヘルド",
         "description": ""
       }
-    ]
+    ],
+    "1740295549965": {
+      "chatStyle": "formal",
+      "translationStyle": "natural",
+      "translationFormat": "parallel",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    },
+    "1740295615981": {
+      "chatStyle": "casual",
+      "translationStyle": "natural",
+      "translationFormat": "simple",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    }
   },
   "1740233567951": {
     "chatStyle": "casual",
@@ -210,7 +282,23 @@
         "targetWord": "ハンドヘルド",
         "description": ""
       }
-    ]
+    ],
+    "1740295549965": {
+      "chatStyle": "formal",
+      "translationStyle": "natural",
+      "translationFormat": "parallel",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    },
+    "1740295615981": {
+      "chatStyle": "casual",
+      "translationStyle": "natural",
+      "translationFormat": "simple",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    }
   },
   "1740234291477": {
     "chatStyle": "casual",
@@ -269,7 +357,23 @@
     "targetLanguage": "ja",
     "textStyle": "dearu",
     "punctuationStyle": "comma",
-    "dictionary": []
+    "dictionary": [],
+    "1740295549965": {
+      "chatStyle": "formal",
+      "translationStyle": "natural",
+      "translationFormat": "parallel",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    },
+    "1740295615981": {
+      "chatStyle": "casual",
+      "translationStyle": "natural",
+      "translationFormat": "simple",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    }
   },
   "1740252984726": {
     "chatStyle": "casual",
@@ -278,6 +382,197 @@
     "targetLanguage": "ja",
     "textStyle": "dearu",
     "punctuationStyle": "ten",
-    "dictionary": []
+    "dictionary": [],
+    "1740295549965": {
+      "chatStyle": "formal",
+      "translationStyle": "natural",
+      "translationFormat": "parallel",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    },
+    "1740295615981": {
+      "chatStyle": "casual",
+      "translationStyle": "natural",
+      "translationFormat": "simple",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    }
+  },
+  "1740295549965": {
+    "chatStyle": "formal",
+    "translationStyle": "natural",
+    "translationFormat": "parallel",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "comma"
+  },
+  "1740295554824": {
+    "chatStyle": "formal",
+    "translationStyle": "natural",
+    "translationFormat": "parallel",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "comma",
+    "dictionary": [],
+    "1740295549965": {
+      "chatStyle": "formal",
+      "translationStyle": "natural",
+      "translationFormat": "parallel",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    }
+  },
+  "1740295615981": {
+    "chatStyle": "casual",
+    "translationStyle": "natural",
+    "translationFormat": "simple",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "comma",
+    "dictionary": [],
+    "1740295549965": {
+      "chatStyle": "formal",
+      "translationStyle": "natural",
+      "translationFormat": "parallel",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    },
+    "1740295615981": {
+      "chatStyle": "casual",
+      "translationStyle": "natural",
+      "translationFormat": "simple",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    }
+  },
+  "1740295620609": {
+    "chatStyle": "casual",
+    "translationStyle": "natural",
+    "translationFormat": "simple",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "comma",
+    "dictionary": [],
+    "1740295549965": {
+      "chatStyle": "formal",
+      "translationStyle": "natural",
+      "translationFormat": "parallel",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    },
+    "1740295615981": {
+      "chatStyle": "casual",
+      "translationStyle": "natural",
+      "translationFormat": "simple",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    }
+  },
+  "1740295732638": {
+    "chatStyle": "casual",
+    "translationStyle": "natural",
+    "translationFormat": "simple",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "comma",
+    "dictionary": [],
+    "1740295549965": {
+      "chatStyle": "formal",
+      "translationStyle": "natural",
+      "translationFormat": "parallel",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    },
+    "1740295615981": {
+      "chatStyle": "casual",
+      "translationStyle": "natural",
+      "translationFormat": "simple",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    }
+  },
+  "1740295845529": {
+    "chatStyle": "casual",
+    "translationStyle": "natural",
+    "translationFormat": "simple",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "comma",
+    "dictionary": [],
+    "1740295549965": {
+      "chatStyle": "formal",
+      "translationStyle": "natural",
+      "translationFormat": "parallel",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    },
+    "1740295615981": {
+      "chatStyle": "casual",
+      "translationStyle": "natural",
+      "translationFormat": "simple",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    }
+  },
+  "1740296267184": {
+    "chatStyle": "casual",
+    "translationStyle": "natural",
+    "translationFormat": "simple",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "comma",
+    "dictionary": [],
+    "1740295549965": {
+      "chatStyle": "formal",
+      "translationStyle": "natural",
+      "translationFormat": "parallel",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    },
+    "1740295615981": {
+      "chatStyle": "casual",
+      "translationStyle": "natural",
+      "translationFormat": "simple",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    }
+  },
+  "1740296374697": {
+    "chatStyle": "formal",
+    "translationStyle": "natural",
+    "translationFormat": "simple",
+    "targetLanguage": "ja",
+    "textStyle": "dearu",
+    "punctuationStyle": "comma",
+    "dictionary": [],
+    "1740295549965": {
+      "chatStyle": "formal",
+      "translationStyle": "natural",
+      "translationFormat": "parallel",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    },
+    "1740295615981": {
+      "chatStyle": "casual",
+      "translationStyle": "natural",
+      "translationFormat": "simple",
+      "targetLanguage": "ja",
+      "textStyle": "dearu",
+      "punctuationStyle": "comma"
+    }
   }
 }

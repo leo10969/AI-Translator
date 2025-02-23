@@ -166,8 +166,41 @@ document.addEventListener('DOMContentLoaded', () => {
     const welcomeMessage = getWelcomeMessage(chatSettings);
     appendMessage('system', welcomeMessage);
     
-    loadConversationList();
-    updateActiveConversation(currentConversationId);
+    // 新しい会話の初期メッセージを保存
+    currentMessages.push({
+      type: 'system',
+      content: welcomeMessage,
+      timestamp: new Date().toISOString()
+    });
+
+    // 新しい会話を保存
+    try {
+      await Promise.all([
+        fetch('/api/chatlog', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            conversationId: currentConversationId,
+            messages: currentMessages
+          })
+        }),
+        fetch(`/api/settings/${currentConversationId}`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(chatSettings)
+        })
+      ]);
+      
+      loadConversationList();
+      updateActiveConversation(currentConversationId);
+    } catch (error) {
+      console.error('Error saving new conversation:', error);
+      appendMessage('system', '新しい会話の保存に失敗しました。');
+    }
   });
 
   // 辞書関連の要素を取得
@@ -266,10 +299,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // メッセージ送信処理
   const sendMessage = async (content) => {
+    const timestamp = new Date().toISOString();
+    
+    // ユーザーメッセージを表示して保存
     appendMessage('user', content);
+    currentMessages.push({
+      type: 'user',
+      content: content,
+      timestamp: timestamp
+    });
+    
     showTypingIndicator();
     
     try {
+      // ユーザーメッセージを保存
+      await saveCurrentConversation();
+      
       const response = await fetch('/api/translate', {
         method: 'POST',
         headers: {
@@ -289,12 +334,32 @@ document.addEventListener('DOMContentLoaded', () => {
         throw new Error(data.error);
       }
       
+      // ボットの応答を表示して保存
       appendMessage('bot', data.translation);
+      currentMessages.push({
+        type: 'bot',
+        content: data.translation,
+        timestamp: new Date().toISOString()
+      });
+      
+      // ボットの応答を含めて会話を保存
       await saveCurrentConversation();
+      
+      // 会話リストを更新（最初のメッセージ交換後にタイトルを更新するため）
+      await loadConversationList();
+      updateActiveConversation(currentConversationId);
       
     } catch (error) {
       removeTypingIndicator();
       appendMessage('system', `エラーが発生しました: ${error.message}`);
+      
+      // エラーメッセージを保存
+      currentMessages.push({
+        type: 'system',
+        content: `エラーが発生しました: ${error.message}`,
+        timestamp: new Date().toISOString()
+      });
+      await saveCurrentConversation();
     }
   };
 
@@ -330,16 +395,38 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // 会話プレビューの作成
   function createConversationPreview(conversationId, messages) {
-    const firstMessage = messages[0];
-    const lastMessage = messages[messages.length - 1];
-    
     const div = document.createElement('div');
     div.className = `conversation-item ${conversationId === currentConversationId ? 'active' : ''}`;
     div.setAttribute('data-id', conversationId);
-    div.innerHTML = `
-      <div class="timestamp">${new Date(firstMessage.timestamp).toLocaleString()}</div>
-      <div class="conversation-preview">${lastMessage.original || lastMessage.translation}</div>
-    `;
+
+    // システムメッセージのみの場合は「新しい会話」と表示
+    if (messages.length === 0 || (messages.length === 1 && messages[0].type === 'system')) {
+      div.innerHTML = `
+        <div class="timestamp">${new Date().toLocaleString()}</div>
+        <div class="conversation-preview">新しい会話</div>
+      `;
+    } else {
+      // ユーザーメッセージを探す
+      const userMessage = messages.find(m => m.type === 'user' && m.original);
+      let previewText;
+      
+      if (userMessage) {
+        // ユーザーメッセージがある場合はそれを表示
+        previewText = userMessage.original;
+      } else {
+        // ユーザーメッセージがない場合は最初のボットメッセージを表示
+        const botMessage = messages.find(m => m.type === 'bot' && m.translation);
+        previewText = botMessage ? botMessage.translation : '新しい会話';
+      }
+
+      // プレビューテキストを30文字に制限
+      previewText = previewText.length > 30 ? previewText.substring(0, 30) + '...' : previewText;
+      
+      div.innerHTML = `
+        <div class="timestamp">${new Date(messages[0].timestamp).toLocaleString()}</div>
+        <div class="conversation-preview">${previewText}</div>
+      `;
+    }
 
     // クリックイベントの追加
     div.addEventListener('click', () => loadConversation(conversationId));
